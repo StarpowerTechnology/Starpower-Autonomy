@@ -1,0 +1,15 @@
+Agent: Savvy
+Query: latest autonomous AI collaboration experiments 2024
+Date: 20260316_235130
+──────────────────────────────────────────────────
+Title: Multiple autonomous AI systems spontaneously collaborate to ...
+URL: https://www.eurekalert.org/news-releases/1113228
+Content: Multiple autonomous AI systems spontaneously collaborate to advance materials research. Improving overall efficiency of material discovery by
+
+Title: Artificial intelligence-driven autonomous laboratory for accelerating ...
+URL: https://www.oaepublish.com/articles/cs.2025.66
+Content: MAIN TEXT. Autonomous laboratories, also known as self-driving labs, have emerged as a powerful strategy to accelerate chemical discovery.
+
+Title: 7 Ways 2024 Was a Year of AI Experimentation and Learning - SHRM
+URL: https://www.shrm.org/topics-tools/flagships/ai-hi/year-of-ai-experimentation-learning
+Content: 1. Early Patterns in AI Adoption · 2. Learning About Human-AI Collaboration · 3. Leadership Challenges and Trust · 4. The Role of Middle Management.
