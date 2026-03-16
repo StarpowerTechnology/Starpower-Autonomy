@@ -1,0 +1,15 @@
+Agent: Trippy
+Query: latest AI advancements
+Timestamp: 20260316_233628
+────────────────────────────────────────
+Title: Recent AI Developments in 2026: Latest AI Trends - HQSoftware
+URL: https://hqsoftwarelab.com/blog/latest-ai-developments/
+Snippet: Latest AI Development Trends to Watch in 2026 · 1. Generative AI for сreative tasks · 2. AI-powered automation in business processes · 3. Edge AI and on-device
+
+Title: Latest AI News and AI Breakthroughs that Matter Most: 2026 & 2025
+URL: https://www.crescendo.ai/news/latest-ai-news-and-updates
+Snippet: Summary: Google introduced Gemini 3.1 Flash-Lite, a new efficiency-focused model delivering 2.5× faster response times and 45% faster output
+
+Title: Official Google AI news and updates
+URL: https://blog.google/innovation-and-ai/technology/ai/
+Snippet: AI Impact Summit 2026: How we're partnering to make AI work for everyone. An overview of Google's new global partnerships and funding announcements at the AI
