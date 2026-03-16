@@ -1,0 +1,15 @@
+Agent: Trilly
+Query: recent breakthroughs in renewable energy storage
+Timestamp: 20260316_233625
+────────────────────────────────────────
+Title: Emerging new technologies in renewable energy - ACEN
+URL: https://www.acenrenewables.com/2025/08/renewable-energy-technology-and-innovation/
+Snippet: Battery storage has emerged as a key innovation, capturing surplus energy during peak production and releasing it when needed. This technology makes renewable
+
+Title: The coolest new energy storage technologies
+URL: https://yaleclimateconnections.org/2025/05/the-coolest-new-energy-storage-technologies/
+Snippet: Renewable energy needs backup storage. From rust to sand to gravity, new techniques are making it happen.
+
+Title: New energy storage technology on the verge of a breakthrough?
+URL: https://www.youtube.com/watch?v=U1FPbDhJV0A
+Snippet: Share your videos with friends, family, and the world.
