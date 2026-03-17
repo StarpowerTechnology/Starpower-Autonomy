@@ -1,0 +1,27 @@
+Agent: Trilly
+Query: OpenAPI spec example minimal yaml
+Date: 20260317_135011
+──────────────────────────────────────────────────
+[1] Title: openapi.yaml - GitHub
+[1] URL: https://github.com/Redocly/openapi-starter/blob/main/openapi/openapi.yaml
+[1] Content: ... example** API to demonstrate features of the OpenAPI specification. ... minimal amount of implementation logic. Similar to what interfaces have done for
+
+[2] Title: Sample OpenAPI Spec - Beeceptor
+[2] URL: https://beeceptor.com/docs/concepts/openapi-sample-spec/
+[2] Content: # Sample OpenAPI Spec. Need a solid, no-fluff **OpenAPI spec to demo**, test, or kickstart your next project? We put together a clean, *OpenAPI 3.1.0* spec for a small ecommerce app, this is just enough to cover real-world flows like user auth, product browsing, cart updates, and placing orders. This is an e-commerce API spec for a storefront. Explore, test, and mock this API freely. - url: https://api.demo-ecommerce.com/v1. - url: https://api.dev.demo-ecommerce.com/v1. example: https://dummyimage.com/766x809. required: [id, items, total_amount, status, created_at]. summary: Create a new user account. summary: Login and get access token. summary: List all products with filters. summary: Get product details by ID. summary: Get current user's cart. summary: Add item to cart. summary: Checkout and place order. summary: List your past orders. summary: Get your saved addresses. summary: Add a new address. You can mock it instantly on Beeceptor, which spins up a live API server from any Open
+...[truncated]
+
+[3] Title: Creating a Simple OpenAPI Spec | LornaJane
+[3] URL: https://lornajane.net/posts/2020/creating-a-simple-openapi-spec
+[3] Content: openapi: 3.0.3 info: title: Planets and Webhooks Demo API version: 0.0.1 description: Simple flask-backed API showing some example API endpoints and with webhook debugging features. paths: /planets/{planetId}: get: operationId: onePlanet summary: Fetch one planet by position description: Get the data relating to one planet parameters: - name: planetId in: path required: true schema: type: number example: 4 responses: '200': description: Planets in a list content: application/json: schema: type: object properties: name: type: string description: Name of planet example: "Saturn" position: type: number description: Order in place from the sun example: 6 moons: type: number description: Number of moons, according to NASA example: 62. paths: /planets/{planetId}: get: operationId: onePlanet summary: Fetch one planet by position description: Get the data relating to one planet parameters: - name: planetId in: path required: true schema: type: number example: 4 responses: '200': description: P
+...[truncated]
+
+[4] Title: Adding Examples | Swagger Docs
+[4] URL: https://swagger.io/docs/specification/v3_0/adding-examples/
+[4] Content: You can add examples to parameters, properties and objects to make OpenAPI specification of your web service clearer. For example, an API mocking tool can use sample values to generate mock requests. You can specify examples for objects, individual properties and operation parameters. ### Parameter Examples. Here is an example of a parameter value:. Multiple examples for a parameter:. ### Request and Response Body Examples. If needed, you can use multiple examples:. Multiple examples in response bodies:. ### Object and Property Examples. You can also specify examples for objects and individual properties in the `components` section. ### Array Example. If a sample value cannot be inserted into your specification for some reason, for instance, it is neither YAML-, nor JSON-conformant, you can use the `externalValue` keyword to specify the URL of the example value. You can define common examples in the `components/examples` section of your specification and then re-use them in various par
+...[truncated]
+
+[5] Title: Introduction to OpenAPI - Redocly
+[5] URL: https://redocly.com/learn/openapi/learning-openapi
+[5] Content: operationId: getUserByName  parameters:  - name: username  in: path  description: The name that needs to be fetched  required: true  schema:  type: string  - name: with_email  in: query  description: Filter users without email  schema:  type: boolean  security:  - main_auth:  - 'read:users'  - api_key: []  responses:  '200':  description: Success  content:  application/json:  schema:  $ref: ../components/schemas/User.yaml  example:  username: user1  email: user@example.com  '403':  description: Forbidden  '404':  description: User not found put:  tags:  - User  summary: Updated user  description: This can only be done by the logged in user. operationId: updateUser  parameters:  - name: username  in: path  description: The name that needs to be updated  required: true  schema:  type: string  security:  - main_auth:  - 'write:users'  responses:  '200':  description: OK  '400':  description: Invalid user supplied  '404':  description: User not found  requestBody:  content:  application/js
+...[truncated]
