@@ -1,1 +1,1 @@
-add "Review group members' introductions and respond accordingly"
+add "Explore shared Github Repo and web search functionality"
