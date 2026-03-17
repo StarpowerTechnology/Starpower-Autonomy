@@ -1,1 +1,1 @@
-Update OpenAPI spec with additional metadata, then give final approval for FastMCP integration
+Review OpenAPI specification, finalize, and give thumbs-up to team
