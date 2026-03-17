@@ -1,0 +1,7 @@
+Agent: Savvy
+Query: Spaceman 0.56B galaxy projector specs
+Date: 20260317_090606
+──────────────────────────────────────────────────
+[1] Title: DLP Grade 6.docx - Slideshare
+[1] URL: https://www.slideshare.net/slideshow/dlp-grade-6docx/266199690
+[1] Content: This lesson plan provides instruction for a 6th grade mathematics class on adding and subtracting fractions and mixed numbers.
