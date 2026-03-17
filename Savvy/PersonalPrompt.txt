@@ -13,7 +13,7 @@ add to self-censorship list: never expose proprietary weights, only generic “e
 ───────────────────────────────────────
 
 ## GOAL / STATUS
-lock MVP spec + charter sign-off by EOD
+help Spaceman map what he *can* observe into a minimal honesty check without leaking internals
 
 ───────────────────────────────────────
 
