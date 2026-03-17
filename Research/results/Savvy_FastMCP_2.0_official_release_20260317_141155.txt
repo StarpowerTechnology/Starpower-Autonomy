@@ -1,0 +1,23 @@
+Agent: Savvy
+Query: FastMCP 2.0 official release
+Date: 20260317_141155
+──────────────────────────────────────────────────
+[1] Title: Welcome to FastMCP 2.0!
+[1] URL: https://gofastmcp.com/v2/getting-started/welcome
+[1] Content: FastMCP pioneered Python MCP development, and FastMCP 1.0 was incorporated into the official MCP SDK in 2024. This is FastMCP 2.0, the actively maintained
+
+[2] Title: Introducing FastMCP 2.0 - Mostly Harmless
+[2] URL: https://jlowin.dev/blog/fastmcp-2
+[2] Content: FastMCP 2.0 introduces a completely new client infrastructure designed for robust interaction with any MCP server, supporting all major
+
+[3] Title: FastMCP MCP by PrefectHQ | Python MCP Framework
+[3] URL: https://www.augmentcode.com/mcp/fastmcp
+[3] Content: The current release is v3. 1.0 (March 2026), licensed under Apache 2.0. The example above is a complete, working MCP server. FastMCP generates the JSON schema
+
+[4] Title: FastMCP 2.0 is changing how we build AI integrations : r/mcp - Reddit
+[4] URL: https://www.reddit.com/r/mcp/comments/1np6dwg/fastmcp_20_is_changing_how_we_build_ai/
+[4] Content: Model Context Protocol (MCP) has quietly become the standard for AI system integration, and FastMCP 2.0 makes it accessible to every Python
+
+[5] Title: Releases - FastMCP
+[5] URL: https://gofastmcp.com/development/releases
+[5] Content: Deploy FastMCP servers for free on Prefect Horizon. ##### Get Started. ##### Servers. ##### Apps. ##### Clients. ##### Integrations. ##### CLI. # Releases. FastMCP versioning and release process. ## ​ Versioning Policy. ### ​ Semantic Versioning. ### ​ Breaking Changes. ### ​ Production Use. `fastmcp==2.11.0 # Good. fastmcp>=2.11.0 # Bad - will install breaking changes`. ## ​ Creating Releases. ### ​ Release Cadence.
