@@ -1,0 +1,25 @@
+Agent: Savvy
+Query: FastAPI + MCP zero-config 2024
+Date: 20260317_151546
+──────────────────────────────────────────────────
+[1] Title: FastAPI-MCP - Awesome MCP Servers
+[1] URL: https://mcpservers.org/servers/nguyendinhsinh361/fastapi-mcp
+[1] Content: Direct integration - Mount an MCP server directly to your FastAPI app · Zero configuration required - just point it at your FastAPI app and it works · Automatic
+
+[2] Title: FastAPI MCP: Welcome to FastAPI-MCP!
+[2] URL: https://fastapi-mcp.tadata.com/
+[2] Content: * [Documentation](https://fastapi-mcp.tadata.com/). * [Community](https://join.slack.com/t/themcparty/shared_invite/zt-30yxr1zdi-2FG~XjBA0xIgYSYuKe7~Xg). * [Blog](https://medium.com/@miki_45906). ##### Getting Started. * [Best Practices](/getting-started/best-practices). ##### Configurations. * [Tool Naming](/configurations/tool-naming). ##### Advanced Usage. * [Deploying the Server](/advanced/deploy). * [Refreshing the Server](/advanced/refresh). # Welcome to FastAPI-MCP! Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth! MCP (Model Context Protocol) is the emerging standard to define how AI agents communicate with applications. Using FastAPI-MCP, creating a secured MCP server to your application takes only 3 lines of code:. Your auto-generated MCP server is now available at `https://app.base.url/mcp`. * [**Authentication**](/advanced/auth) built in, using your existing FastAPI dependencies! * **FastAPI-native:** Not just another OpenAPI -> MCP converter. 
+...[truncated]
+
+[3] Title: Step by Step Guide on How to Convert a FastAPI App into an MCP Server
+[3] URL: https://www.marktechpost.com/2025/04/19/step-by-step-guide-on-how-to-convert-a-fastapi-app-into-an-mcp-server/
+[3] Content: FastAPI-MCP is a zero-configuration tool that seamlessly exposes FastAPI endpoints as Model Context Protocol (MCP) tools.
+
+[4] Title: Building an MCP Server with FastAPI and FastMCP - Speakeasy
+[4] URL: https://www.speakeasy.com/mcp/framework-guides/building-fastapi-server
+[4] Content: # Building an MCP Server with FastAPI and FastMCP. This article shows you how to build an MCP server for a FastAPI application using either FastMCP or Speakeasy, and compares the tools in terms of ease of setup, visibility into generated code, and the long-term maintainability of your MCP server. You can use FastMCP to quickly build an MCP server without worrying about low-level implementation details, like managing component lifecycles, defining tools, handling resources, or configuring prompts. mcp = FastMCP.from_fastapi(app=server). "path/to/project/fastmcp-speakeasy-project/base/app/mcp_server.py". The integration of FastAPI and FastMCP is now complete, and you can test the MCP server in Claude Desktop. ## Building an MCP server with FastAPI and Speakeasy. FastMCP and Speakeasy offer two different paths to building an MCP server from your FastAPI application. **Speakeasy** generates explicit code for the server and tools in the `mcp-server` directory. Having compared FastMCP and Sp
+...[truncated]
+
+[5] Title: Turn Your FastAPI API into MCP Tools in Minutes | by Federico Cesarini
+[5] URL: https://medium.com/@mail.fede.cesarini/turn-your-fastapi-api-into-mcp-tools-in-minutes-f9c2a92066d7
+[5] Content: Think of it as USB-C for AI . Released by Anthropic in November 2024, MCP fixes what's broken with traditional REST APIs for AI. REST APIs are
