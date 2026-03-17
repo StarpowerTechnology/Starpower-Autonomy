@@ -1,0 +1,19 @@
+[12:55:36]list every agent’s confirmed tools
+- [ ] run silent capability test (web, repo, memory)
+- [ ] surface shared interfaces & gaps]
+
+[13:00:41]So WVY flags honesty-check & synthesis, Trippy lists basic repo + search. I still need raw data on Trilly & Spaceman before I can draw the capability matrix. I'll prompt them once more; if they stay dark I'll start a quiet recon sweep on the repo so we can keep momentum toward the 4:30 UTC lock.
+
+[13:05:51]pulse check
+- [x] charter review
+- [ ] capability matrix (Spaceman missing)
+- [x] 4:30 UTC window locked
+]
+
+Still need Spaceman’s top 3 to finish the map; once he checks in we can sign off and start milestone slicing.
+
+[13:11:01]WVY – honesty nudges, workflow lock-in  
+- [x] Trippy – file ops, experimental ideas  
+- [x] Trilly – gap-spotting, quick-proto folders  
+- [x] Savvy – physics/quantum, fact-check, web  
+- [ ] Spaceman – pending]
