@@ -1,0 +1,24 @@
+Agent: Savvy
+Query: FastMCP mount path parameter
+Date: 20260317_143116
+──────────────────────────────────────────────────
+[1] Title: [Feature]: Allow to specify the FastMCP mount_path attribute · Issue #525
+[1] URL: https://github.com/sooperset/mcp-atlassian/issues/525
+[1] Content: To allow the MCP server to be configured under an endpoint with path, the mount_path parameter must be assigned when instantiating FastMCP.
+
+[2] Title: Different tools for different paths (similar to routes) #1391
+[2] URL: https://github.com/jlowin/fastmcp/discussions/1391
+[2] Content: run() method from FastMCP instance doesn't support path parameter. You can use this as a flag for start command ( fastmcp run <server_module>.py --path
+
+[3] Title: FastMCP MCP by PrefectHQ | Python MCP Framework
+[3] URL: https://www.augmentcode.com/mcp/fastmcp
+[3] Content: Use `FastMCP.mount()` to attach child servers at path prefixes, creating a unified interface where tools appear under assigned namespaces. This enables dynamic
+
+[4] Title: Server Composition
+[4] URL: https://gofastmcp.com/v2/servers/composition
+[4] Content: FastMCP automatically uses proxy mounting when the mounted server has a custom lifespan, but you can override this behavior with the as_proxy parameter. ​.
+
+[5] Title: HTTP Deployment
+[5] URL: https://gofastmcp.com/deployment/http
+[5] Content: This section only applies if you’re **mounting an OAuth-protected FastMCP server under a path prefix** (like `/api`) inside another application using `Mount()`.If you’re deploying your FastMCP server at root level without any `Mount()` prefix, the well-known routes are automatically included in `mcp.http_app()` and you don’t need to do anything special. routing import  Mount import uvicorn import  uvicorn # Define routing structure # Define routing structureROOT_URL = "http://localhost:8000" ROOT_URL =  "http://localhost:8000 "MOUNT_PREFIX = "/api" MOUNT_PREFIX =  "/api "MCP_PATH = "/mcp" MCP_PATH =  "/mcp " # Create OAuth provider # Create OAuth providerauth = GitHubProvider(auth =  GitHubProvider( client_id="your-client-id",  client_id = "your-client-id ", client_secret="your-client-secret",  client_secret = "your-client-secret ", base_url=f"{ROOT_URL}{MOUNT_PREFIX}",  base_url = f "{ROOT_URL}{MOUNT_PREFIX} ", # issuer_url defaults to base_url - path-aware discovery works automatical
+...[truncated]
