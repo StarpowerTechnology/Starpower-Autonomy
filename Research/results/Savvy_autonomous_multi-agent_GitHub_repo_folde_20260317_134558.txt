@@ -1,0 +1,26 @@
+Agent: Savvy
+Query: autonomous multi-agent GitHub repo folder conventions
+Date: 20260317_134558
+──────────────────────────────────────────────────
+[1] Title: How to write a great agents.md: Lessons from over 2,500 repositories
+[1] URL: https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/
+[1] Content: ## Persona - You specialize in [writing documentation/creating tests/analyzing logs/building APIs] - You understand [the codebase/test patterns/security risks] and translate that into [clear docs/comprehensive tests/actionable insights] - Your output: [API documentation/unit tests/security reports] that [developers can understand/catch bugs early/prevent incidents] ## Project knowledge - **Tech Stack:** [your technologies with versions] - **File Structure:** - `src/` – [what's here] - `tests/` – [what's here] ## Tools you can use - **Build:** `npm run build` (compiles TypeScript, outputs to dist/) - **Test:** `npm test` (runs Jest, must pass before commits) - **Lint:** `npm run lint --fix` (auto-fixes ESLint errors) ## Standards Follow these rules for all code you write: **Naming conventions:** - Functions: camelCase (`getUserData`, `calculateTotal`) - Classes: PascalCase (`UserService`, `DataController`) - Constants: UPPER_SNAKE_CASE (`API_KEY`, `MAX_RETRIES`) **Code style example:** 
+...[truncated]
+
+[2] Title: Autonomous-Agents/README.md at main - GitHub
+[2] URL: https://github.com/tmgthb/Autonomous-Agents/blob/main/README.md
+[2] Content: * Competitive Multi-Operator RL (Reinforcement Learning) framework: introduces a dual-operator control system where independent agents jointly learn pricing and fleet rebalancing policies through interaction with a shared urban mobility environment, with all Independent Actor-Critic Agents (learn pricing and rebalancing policies), Graph Neural Network Encoders (capture spatial dependencies in transportation networks), Multinomial Logit Choice Model (allocates passengers based on price and utility), Minimal-Cost Flow Rebalancing Solver (executes vehicle movements to reach desired distributions), and Shared AMoD Environment (simulates vehicle dynamics, queues, and demand). * RF-Agent (Automated Reward Function Design via Language Agent Tree Search): introduces a framework that frames reward function design as a sequential decision-making process to automate dense reward generation for low-level control, with LLM-based reward designer, Monte Carlo Tree Search, tree-structured memory, acti
+...[truncated]
+
+[3] Title: We built a GitHub Repo Understanding Agent in Just 300 lines of ...
+[3] URL: https://www.reddit.com/r/LangChain/comments/1lcssom/we_built_a_github_repo_understanding_agent_in/
+[3] Content: So we wanted to explore whether we could use an autonomous agent to generate a clean project summary just from the file structure and metadata
+
+[4] Title: Multi-Repository Examples | GitHub Agentic Workflows
+[4] URL: https://github.github.com/gh-aw/examples/multi-repo/
+[4] Content: Complete examples for managing workflows across multiple GitHub repositories, including feature synchronization, cross-repo tracking, and organization-wide
+
+[5] Title: RepoMaster: Autonomous Exploration and Understanding of GitHub ...
+[5] URL: https://arxiv.org/html/2505.21577v2
+[5] Content: Relying solely on README files provides insufficient guidance, and deeper exploration reveals two core obstacles: overwhelming information and tangled dependencies of repositories, both constrained by the limited context windows of current LLMs. To tackle these issues, we propose RepoMaster, an autonomous agent framework designed to explore and reuse GitHub repositories for solving complex tasks. However, GitHub repositories often have two key properties that make this hard: (1) intricate structural complexity, with many interconnected files, classes, and functions, and (2) information density that exceeds the context limits of most LLMs. Existing frameworks swe-agent ; MLAB ; openhands ; aide  do not provide mechanisms for grasping repository structures, tracking detailed dependencies, or strategically managing information within these constraints, ultimately resulting in suboptimal performance and higher token cost. To construct MLE-R, we select 22 MLE-Bench tasks (covering nearly al
+...[truncated]
