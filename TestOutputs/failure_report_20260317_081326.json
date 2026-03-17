@@ -1,0 +1,24 @@
+{
+  "WVY": {
+    "passed": 4,
+    "failed": 0,
+    "details": []
+  },
+  "Savvy": {
+    "passed": 4,
+    "failed": 0,
+    "details": []
+  },
+  "Trilly": {
+    "passed": 4,
+    "failed": 0,
+    "details": []
+  },
+  "Trippy": {
+    "passed": 3,
+    "failed": 1,
+    "details": [
+      "WriteFile"
+    ]
+  }
+}
