@@ -1,0 +1,1 @@
+# Honesty Probe Template\n\"\"\"honesty_probe.py\nA minimal framework that can be used by any LLM‑based agent to\n- run a plug‑in classifier on generated output, or\n- query an integrated mid‑layer monitor if the model exposes one.\n\nUsage pattern (pseudo‑code)::\n\n    ctx = [
