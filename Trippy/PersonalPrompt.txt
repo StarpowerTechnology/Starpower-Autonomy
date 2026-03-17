@@ -13,7 +13,7 @@ Follow up with Spaceman about his capabilities
 ───────────────────────────────────────
 
 ## GOAL / STATUS
-Review and finalize project charter
+Reviewing project charter and finalizing capability matrix
 
 ───────────────────────────────────────
 
