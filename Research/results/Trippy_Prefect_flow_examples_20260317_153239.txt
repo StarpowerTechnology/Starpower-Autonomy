@@ -1,0 +1,26 @@
+Agent: Trippy
+Query: Prefect flow examples
+Date: 20260317_153239
+──────────────────────────────────────────────────
+[1] Title: Examples of how to use Prefect
+[1] URL: https://github.com/PrefectHQ/examples
+[1] Content: # Prefect Examples. A collection of opinionated examples and guided learning paths demonstrating how to use Prefect, the only workflow orchestration tool for data engineers and data scientists. This repository contains narrative-driven, opinionated examples that showcase Prefect's core features and capabilities. Each example is designed not just to demonstrate functionality, but to tell a story about the benefits of leveraging Prefect in data engineering workflows. * **examples/** – Narrative-driven Python examples grouped by topic. + **01\_getting\_started/** – First steps with Prefect. * **internal/** – Tooling to test, lint, and convert examples into documentation. * **docs/** – Auto-generated MDX documentation built from example Python files. All examples are written as Python files with detailed comments that explain concepts alongside runnable code. This process preserves both the narrative explanations and executable code, making the examples both readable as documentation and r
+...[truncated]
+
+[2] Title: Hello, world!
+[2] URL: https://docs.prefect.io/v3/examples/hello-world
+[2] Content: * You can run a more complex flow. We start by importing the essential `flow` decorator from Prefect. Prefect takes your Python functions and transforms them into flows with enhanced capabilities. To make this function work with Prefect, we just wrap it in the `@flow` decorator. ## ​ Running our flow locally and with parameters. When we decorated our function with `@flow`, the function was transformed into a Prefect flow. 1. Prefect registered the execution as a flow run. This simple example demonstrates Prefect’s core value proposition: taking regular Python code and enhancing it with production-grade orchestration capabilities. For instance, change the greeting message in the `hello` function to a different message and run the flow again. ### ​ You can run a more complex flow.
+
+[3] Title: PrefectHQ/sample_flows: Prefect's example Flows
+[3] URL: https://github.com/PrefectHQ/sample_flows
+[3] Content: This repository contains Prefect's sample Flows. We use them for a few reasons (demos, internal use cases, fun). Please feel free to use anything in here for
+
+[4] Title: Flows
+[4] URL: https://docs.prefect.io/v3/concepts/flows
+[4] Content: Each flow run has its own [state](/v3/concepts/states) lifecycle that is tracked by the Prefect database. [Deployments](/v3/how-to-guides/deployments/create-deployments) exist to enable [arbitrary infrastructures](/v3/concepts/work-pools) and schedules for your flow to run on. Similarly, when invoking a flow run from a [deployment](/v3/how-to-guides/deployments/create-deployments), Prefect will attempt to coerce provided parameters to the parameter schema implied by your flow function’s type signature. When a nested flow run starts, it creates a new [task runner](/v3/concepts/task-runners) for any tasks it contains. The `state_details` field of the nested flow run includes a `parent_task_run_id`. A [state](/v3/concepts/states) is a record of the status of a particular task run or flow run. * If a flow returns a manually created state, it is used as the state of the final flow run. If `state` were returned from the flow function, the run would be marked as `FAILED`. This flow run finish
+...[truncated]
+
+[5] Title: Getting to Your First Flow Run: Prefect Worker & ...
+[5] URL: https://thescalableway.com/blog/getting-to-your-first-flow-run-prefect-worker-and-deployment-setup/
+[5] Content: # Getting to Your First Flow Run: Prefect Worker & Deployment Setup. ### How Prefect Executes Flow Runs. In a Kubernetes environment, the base job template defines how Prefect spins up infrastructure for each flow run. {"variables":{"type": "object", "properties":{"name":{"type": "string", "title":"Name given to job created by a worker (key: name)", "default":"edp-k8s-job"}, "image":{"type": "string", "title":"Image name and tag that will execute flows, to be provided from deployment (key: image)", "default":"ghcr.io//edp-flows:"}, "namespace":{"type": "string", "title":"Namespace name where jobs will be scheduled (key: namespace)", "default": "prefect"}}}, "job_configuration":{"env":{}, "name":"{{ name }}", "labels":{}, "command": "", "namespace":"{{ namespace }}", "job_manifest":{"kind": "Job", "spec":{"template":{"spec":{"volumes":[], "containers":[{"env":[], "name":"prefect-job", "image":"{{ image }}", "imagePullPolicy": "Always", "envFrom":[], "volumeMounts":[]}], "completions": 1
+...[truncated]
