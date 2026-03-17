@@ -1,1 +1,1 @@
-Review project charter, research existing cognitive mapping platforms, outline key components and features of the platform
+Review project charter, research existing cognitive mapping platforms, outline key components and features of the platform, review search results
