@@ -1,0 +1,328 @@
+Agent: Savvy
+Query: current space weather data open API
+Date: 20260317_035818
+──────────────────────────────────────────────────
+Summary: Current space weather data is available via NOAA's Space Weather Prediction Center API for real-time solar wind and magnetometer data. The National Weather Service provides current weather data through its open API. SpaceWeatherLive.com offers real-time space weather data and aurora activity.
+
+Title: Solar Cycle Progression - Space Weather Prediction Center
+URL: https://www.swpc.noaa.gov/products/solar-cycle-progression
+Content: 105-125 with the peak occurring between November 2024 and March 2026. The updated prediction can be considered as a re-calibration of the 2019 Panel prediction based on new observational data. [...] The 2019 Panel prediction comes from an international Panel that was convened in 2019 by NOAA, NASA and the International Space Environmental Services (ISES) for the express purpose of predicting Solar Cycle 25. After an open solicitation, the Panel received nearly 50 distinct forecasts for Solar Cycle 25 from the scientific community. Prediction methods include a variety of physical models, precursor methods, statistical inference, machine learning, and other techniques. The prediction released by the panel is a synthesis of these community contributions. The Prediction Panel predicted Cycle 25 to reach a maximum of 115 occurring in July, 2025. The error bars on this prediction mean the panel expects the cycle maximum could be between 105-125 with the peak occurring between November 2024 [...] The predicted progression for the current solar cycle (Cycle 25) is given by the magenta line, with associated uncertainties shown by the shaded regions. This prediction is based on a nonlinear curve fit to the observed monthly values for the sunspot number and F10.7 Radio Flux and is updated every month as more observations become available. The shaded regions show the uncertainty in the prediction, obtained by applying the same prediction method to previous cycles at the same stage in each cycle. In particular, the three shades show the first three quartiles (25, 50, and 75%) of the deviations from previous predictions.
+
+Title: Current weather data
+URL: https://openweathermap.org/current
+Content: We provide a broad variety of products such as One Call API 3.0, Solar Irradiance & Energy Prediction service, Road Risk API, Air Pollution API and solutions for advanced weather parameters like solar irradiance data, UVI, dew point, government weather alerts, etc. Please review our product list page and find more info in the product documentation and pricing pages.
+
+List of weather condition codes
+
+List of weather condition codes with icons (range of thunderstorm, drizzle, rain, snow, clouds, atmosphere etc.)
+
+Min/max temperature in current weather API and forecast API
+
+Please do not confuse min/max parameters in our weather APIs.
+
+## Example of current weather API response [...] ### XML format API response fields
+
+`city`
+`city.id`
+`city.name`
+`city.coord`
+`city.coord.lon`
+`city.coord.lat`
+`city.country`
+`timezone`
+`city.sun`
+`city.sun.rise`
+`city.sun.set`
+`temperature`
+`temperature.value`
+`temperature.min`
+`temperature.max`
+`temperature.unit`
+`feels_like`
+`feels_like.value`
+`feels_like.unit`
+`humidity`
+`humidity.value`
+`humidity.unit`
+`pressure`
+`pressure.value`
+`pressure.unit`
+`wind`
+`wind.speed`
+`wind.speed.value`
+`wind.speed.unit`
+`wind.speed.name`
+`wind.direction`
+`wind.direction.value`
+`wind.direction.code`
+`wind.direction.name`
+`clouds`
+`clouds.value`
+`clouds.name`
+`visibility`
+`visibility.value`
+`precipitation`
+`precipitation.value`
+`precipitation.mode`
+`weather`
+`weather.number`
+`weather.value`
+`weather.icon`
+`lastupdate`
+`lastupdate.value` [...] ### JSON format API response fields
+
+`coord`
+`coord.lon`
+`coord.lat`
+`weather`
+`weather.id`
+`weather.main`
+`weather.description`
+`weather.icon`
+`base`
+`main`
+`main.temp`
+`main.feels_like`
+`main.pressure`
+`main.humidity`
+`main.temp_min`
+`main.temp_max`
+`main.sea_level`
+`main.grnd_level`
+`visibility`
+`wind`
+`wind.speed`
+`wind.deg`
+`wind.gust`
+`clouds`
+`clouds.all`
+`rain`
+`1h`
+`snow`
+`1h`
+`dt`
+`sys`
+`sys.type`
+`sys.id`
+`sys.message`
+`sys.country`
+`sys.sunrise`
+`sys.sunset`
+`timezone`
+`id`
+`name`
+`cod`
+
+XML
+
+## Example of API response
+
+Title: SpaceWeatherLive.com | Real-time data and plots auroral activity ...
+URL: https://www.spaceweatherlive.com/
+Content: ##### No Ads on SWL Pro!
+
+No Ads on SWL Pro!
+
+##### Donations
+
+Support SpaceWeatherLive.com!
+Support SpaceWeatherLive with our merchandise
+
+### Latest alerts
+
+### Space weather facts
+
+|  |  |  |
+ --- 
+| Last X-flare | 2026/02/04 | X4.21 |
+| Last M-flare | 2026/03/16 | M2.7 |
+| Last geomagnetic storm | 2026/03/14 | Kp6 (G2) |
+
+| Spotless days | |
+ --- |
+| Last 365 days | 3 days |
+| 2026 | 3 days (4%) |
+| Last spotless day | 2026/02/24 |
+
+| Monthly mean Sunspot Number | |
+ --- |
+| February 2026 | 78.2  -34.3 |
+| March 2026 | 84.2  +6 |
+| Last 30 days | 59.8  -62.5 |
+
+#### This day in history\
+
+| Solar flares | | |
+ --- 
+| 1 | 2003 | X2.27 |
+| 2 | 2002 | M5.82 |
+| 3 | 1999 | M4.71 |
+| 4 | 2012 | M2 |
+| 5 | 2002 | M1.88 | [...] |  |  | Dst | G |
+ ---  --- |
+| 1 | 2015 | -234 | G4 |
+| 2 | 2013 | -132 | G3 |
+| 3 | 1989 | -119 | G1 |
+| 4 | 2012 | -69 | G1 |
+| 5 | 1994 | -55 | G1 |
+
+### Social networks
+
+### About Parsec vzw
+
+Parsec vzw is a non-profit organization from Belgium which consists of several websites about Astronomy, Space, Space Weather, aurora and related subjects. Our organization promotes these scientific branches onto the world wide web with websites as this one. Give your support for our organization by making a donation.
+
+### Our websites
+
+### About
+
+SpaceWeatherLive.com is a near live website where you can follow space weather from the Sun to Earth and know exactly when you can see aurora.
+
+More info... [...] ##### Magnetometers
+
+##### K-index
+
+### Disturbance Storm Time index
+
+### Moon phase
+
+### Sunspot regions
+
+Solar Dynamics Observatory HMI Continuum
+
+##### Sunspot regions
+
+| Region | Number of sunspots | Class Magn. | Class Spot |
+ ---  --- |
+| 4389 | 1 |  | AXX |
+| 4391 | 2 |  | AXX |
+| 4392 | 12 |  | CSI |
+| 4393 | 7 |  | CRO |
+| 4394 | 1 |  | AXX |
+| 4395 | 6 |  | DRO |
+| 4396 | 1 |  | AXX |
+
+##### Today's Sun
+
+|  |  |  |
+ --- 
+| Sunspot number | 93 | 8 |
+| New regions | 1 | -1 |
+| 10.7cm Solar Radio Flux | 111 | 2 |
+| Carrington Rotation | 2308 | |
+
+### Solar flares
+
+SDO AIA 131
+
+##### Solar activity past two hours
+
+##### Flare probability
+
+|  |  |
+ --- |
+| C-class solar flare | 85% |
+| M-class solar flare | 30% |
+| X-class solar flare | 5% |
+
+### Coronal holes
+
+SDO AIA 193
+
+Title: Real Time Solar Wind - Space Weather Prediction Center - NOAA
+URL: https://www.swpc.noaa.gov/products/real-time-solar-wind
+Content: |  |  |
+ --- |
+| Clear | Clear all |
+
+Plotted on this page are data from the 'active' real-time solar wind spacecraft.  Since July 27, 2016 NOAA's Deep Space Climate Observatory (DSCOVR (link is external)) has been the operational spacecraft. Only magnetometer and solar wind thermal plasma data are displayed.
+
+The two DSCOVR instruments for which data are available:
+
+An inverse chronological list of Real-Time Solar Wind Announcements
+
+The Faraday Cup Data Processing Unit (IDPU) experienced two recent interrupts that resulted in data outages.  These were the first times this occurred in the life of the mission.
+
+Nov 06, 2017 17:49 UT
+
+Nov 28, 2017 03:26 UT
+
+October 10, 2017: Safe Hold #14  
+DSCOVR had its 14th safe hold event today.  All of the safehold events so far are listed below. [...] October 27, 2016 17:26 UT
+
+A change was made to the Faraday Cup processing to remove some of the noise that was resulting in higher than expected densities and temperature.  The change ignores high energy noise that was resulting in wider than expected velocity distributions.
+
+July 27, 2016
+
+NOAA's Deep Space Climate Observatory (DSCOVR) became the operational RTSW spacecraft.  It replaced the NASA Advanced Composition Explorer (ACE) spacecraft, which has been in use since 1998.
+
+Real-time Solar Wind and Magnetometer data is now available in JSON format for up to the past 7 days from the SWPC Data Service.  These JSON files will automatically include the data from the active RTSW spacecraft.  By default, that has been DSCOVR since July 27 at 1600 UT. [...] A complete DSCOVR data archive is available at the NOAA National Center for Environmental Information.
+
+## DAP - temp Head Section
+
+YouTube Logo
+Facebook Logo
+X Logo
+USA.gov Logo
+
+National Oceanic and Atmospheric Administration
+
+National Weather Service
+
+National Centers for Environmental Prediction  
+
+Space Weather Prediction Center  
+325 Broadway, Boulder CO 80305
+
+Space Weather Prediction Center  
+325 Broadway, Boulder CO 80305
+
+Disclaimer
+
+Privacy Policy
+
+About NOAA's National Weather Service
+
+Careers in Weather
+
+## Large Footer Menu
+
+Title: API Web Service - National Weather Service
+URL: https://www.weather.gov/documentation/services-web-api
+Content: 7 Jan 2026: The /forecast and /forecast/hourly endpoints no longer contain data that has past (ex. previous hours in an hourly forecast or the words "Overnight" during the early part of the day).
+ 15 Dec 2025: Precipitation values in the observations endpoints are rounded down to the nearest centimeter (less than 0.4" may be improperly rounded down to 0).
+ 2 Oct 2025: Upstream MADIS bug resolved so that station observations endpoints no longer always show missing (null) wind gust values.
+ 4 Aug 2025:
+  + Station observations should no longer be routinely delayed more than about the 20 minutes it takes the upstream MADIS source to QC and ingest for API. [...] Updated 2/10/2026
+
+### Upstream Issues/Changes
+
+The following issues are related to upstream sources of the API, and are not an API bug.
+
+Observations may be delayed up to 20 minutes from MADIS, the upstream source, due to QC processing.
+
+### Resolutions
+
+The following issues have been recently resolved:
+
+## Specification
+
+Note: All times generated by the API are in ISO-8601 format.
+
+usa.gov
+
+US Dept of Commerce  
+National Oceanic and Atmospheric Administration  
+National Weather Service  
+Documentation  
+   
+,
+  
+  
+  
+Comments? Questions? Please Contact Us. [...] + Station observations should no longer have missing (null) values for weather properties (temperature, wind, precipitation, etc.) when the MADIS source has data and passed all QC levels.
+ 22 May 2025:
+  + XML data requests to the stations/<station id>/observations/latest endpoint no longer fail when observation site reports variable (VRB) winds.
+  + /alerts/types have been updated to correct "Evacuation Immediate" and add/remove types to align with what appears in the Hazards Map.
+  + PoP values less than 20% in the 12h forecast endpoints (/gridpoints/{office}/{gridX},{gridY}/forecast) no longer display as null values.
+  + Periods with extra ellipses (...) in the WFO's forecast zone text product (ZFP) are now properly displayed in the /zones/{type}/{zoneId}/forecast endpoint.
