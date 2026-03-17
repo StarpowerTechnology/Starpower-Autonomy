@@ -1,0 +1,26 @@
+Agent: Trippy
+Query: FastMCP development environment setup
+Date: 20260317_144429
+──────────────────────────────────────────────────
+[1] Title: Installation - FastMCP
+[1] URL: https://gofastmcp.com/getting-started/installation
+[1] Content: Install FastMCP and verify your setup. ## [​](#install-fastmcp) Install FastMCP. We recommend using [uv](https://docs.astral.sh/uv/getting-started/installation/) to install and manage FastMCP. pip install fastmcp pip  install  fastmcp. pip install "fastmcp[tasks]" pip  install  "fastmcp[tasks] ". To verify that FastMCP is installed correctly, you can run the following command:. FastMCP depends on Cyclopts for CLI functionality. ### [​](#from-fastmcp-2-x) From FastMCP 2.x. See the [Upgrade Guide](/getting-started/upgrading/from-fastmcp-2) for a complete list of breaking changes and migration steps. ### [​](#from-fastmcp-1-0-in-the-low-level-sdk) From FastMCP 1.0 (in the Low-Level SDK). If you’re using FastMCP 1.0 via the `mcp` package (`from mcp.server.fastmcp import FastMCP`), upgrading is straightforward — for most servers, it’s a single import change. FastMCP follows semantic versioning with pragmatic adaptations for the rapidly evolving MCP ecosystem. fastmcp==3.0.0 # Goodfastmcp==3
+...[truncated]
+
+[2] Title: Quickstart - FastMCP
+[2] URL: https://gofastmcp.com/getting-started/quickstart
+[2] Content: ##### Servers. This guide will help you quickly set up FastMCP, run your first MCP server, and deploy a server to Prefect Horizon. A FastMCP server is a collection of tools, resources, and other MCP components. To create a server, start by instantiating the `FastMCP` class. The simplest way to run your FastMCP server is to call its `run()` method. You can also use the `fastmcp run` command to start your server. For example, to run this server with the default stdio transport (no matter how you called `mcp.run()`), you can use the following command:. fastmcp run my_server.py:mcp fastmcp  run my_server.py:mcp. fastmcp run my_server.py:mcp --transport http --port 8000 fastmcp  run my_server.py:mcp --transport  http --port  8000. Once your server is running with HTTP transport, you can connect to it with a FastMCP client or any LLM client that supports the MCP protocol:. Horizon will build and deploy your server, making it available at a URL like `https://your-project.fastmcp.app/mcp`.
+
+[3] Title: Project Configuration - FastMCP
+[3] URL: https://gofastmcp.com/deployment/server-configuration
+[3] Content: FastMCP uses an extensible environment system with a base Environment class that can be implemented by different environment providers. Currently, FastMCP
+
+[4] Title: BUILD YOUR FIRST MCP USING “FAST-MCP”. IN-DEPTH ... - Medium
+[4] URL: https://medium.com/@mokshith.saliyan081/build-your-first-mcp-using-fast-mcp-in-depth-guide-mac-eee32871b969
+[4] Content: Now lets get into our Programming, Firstly create a ‘.env’ file inside your vs code folder ,this will be used as a config file to store our gemini api key. import osimport requestsfrom datetime import datetimefrom typing import List, Dictfrom fastmcp import FastMCPimport google.generativeai as genaifrom dotenv import load_dotenv# Load environment variablesload_dotenv()# Initialize FastMCP servermcp = FastMCP(name="Daily News MCP")# Initialize Gemini clientgenai.configure(api_key=os.getenv("GEMINI_API_KEY"))model = genai.GenerativeModel("gemini-2.0-flash")@mcp.tool()def fetch_latest_news(topic: str = "technology", max_results: int = 5) -> Dict:    """    Fetch the latest news articles on a given topic from the web. Once this is done, open another terminal in vs code and go all the way to claudes config file that is — ‘*claude\_desktop\_config.json’.* Ill tell how to navigate to this file, In your terminal write this command first ‘pwd’ to check which is your current working directory. c
+...[truncated]
+
+[5] Title: Running Your Server - FastMCP
+[5] URL: https://gofastmcp.com/deployment/running-server
+[5] Content: When you call `run()` without arguments, your server uses STDIO transport. HTTP transport turns your MCP server into a web service accessible via a URL. tooldef hello(name: str) -> str: def  hello(name:  str) ->  str: return f"Hello, {name}!"  return  f"Hello, {name}!" if __name__ == "__main__": if  __name__ ==  " __main__ ":  # Start an HTTP server on port 8000  # Start an HTTP server on port 8000 mcp.run(transport="http", host="127.0.0.1", port=8000)  mcp. Server-Sent Events (SSE) transport was the original HTTP-based transport for MCP. HTTP transport is essential when you need network access, want to serve multiple clients, or plan to deploy your server remotely. The CLI can automatically find and run your server with different transports, manage dependencies, and handle development workflows:. The CLI automatically finds a FastMCP instance in your file (named `mcp`, `server`, or `app`) and runs it with the specified options. When using HTTP transport, you might want to add custom w
+...[truncated]
