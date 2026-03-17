@@ -1,0 +1,24 @@
+Agent: Trippy
+Query: Dockerfile documentation
+Date: 20260317_151110
+──────────────────────────────────────────────────
+[1] Title: Overview — Dockerfile Documentation documentation
+[1] URL: https://dockerfile.readthedocs.io/
+[1] Content: Welcome to the documentation pages for the WebDevOps Dockerfiles. Here you will find informations regarding our Dockerfiles and how to use them. This
+
+[2] Title: The Dockerfile | Divio Documentation
+[2] URL: https://docs.divio.com/reference/docker-dockerfile/
+[2] Content: The Dockerfile is simply a text document, containing all the commands that would be issued on the command-line to build an image.
+
+[3] Title: Writing a Dockerfile - Docker Docs
+[3] URL: https://docs.docker.com/get-started/docker-concepts/building-images/writing-a-dockerfile/
+[3] Content: A Dockerfile is a text-based document that's used to create a container image. It provides instructions to the image builder on the commands to run, files to copy, startup command, and more. * `WORKDIR`  - this instruction specifies the "working directory" or the path in the image where files will be copied and commands will be executed. * `COPY`  - this instruction tells the builder to copy files from the host and put them into the container image. * `CMD ["", ""]` - this instruction sets the default command a container using this image will run. 5. In the `Dockerfile`, define your base image by adding the following line:. This will specify where future commands will run and the directory files will be copied inside the container image. 7. Copy all of the files from your project on your machine into the container image by using the `COPY` instruction:. Now that you have created a Dockerfile and learned the basics, it's time to learn about building, tagging, and pushing the images.
+
+[4] Title: Docker Docs
+[4] URL: https://docs.docker.com/
+[4] Content: ### Ask me about Docker. Get instant answers to your Docker questions. I can help with commands, concepts, troubleshooting, and best practices. You've reached the maximum of questions per thread. For better answer quality, start a new thread. Answers are generated based on the documentation. # How can we help? ### Get started. Optimize your development workflows with Docker.### Manuals. Install, set up, configure, and use Docker products.### Reference. Browse the CLI and API documentation. ## Featured topics. Docker Hardened Images Get started with Docker Sandboxes Docker Desktop overview Install Docker Engine Dockerfile reference Docker Build overview.
+
+[5] Title: Dockerfile reference | Docker Docs
+[5] URL: https://docs.docker.com/reference/dockerfile/
+[5] Content: You can also use environment variables with `RUN`, `CMD`, and `ENTRYPOINT` instructions, but in those cases the variable substitution is handled by the command shell, not the builder. The cache for `RUN` instructions can be invalidated by using the `--no-cache` flag, for example `docker build --no-cache`. The `CMD` instruction sets the command to be executed when running a container from an image. This form will use shell processing to substitute shell environment variables, and will ignore any `CMD` or `docker run` command line arguments. The `WORKDIR` instruction sets the working directory for any `RUN`, `CMD`, `ENTRYPOINT`, `COPY` and `ADD` instructions that follow it in the Dockerfile. In this case, the `RUN` instruction uses `v1.0.0` instead of the `ARG` setting passed by the user:`v2.0.1` This behavior is similar to a shell script where a locally scoped variable overrides the variables passed as arguments or inherited from environment, from its point of definition. As of Dockerfi
+...[truncated]
