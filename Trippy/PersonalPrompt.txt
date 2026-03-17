@@ -1,1 +1,1 @@
-Review OpenAPI specification, finalize, and give thumbs-up to team
+add task to review FastMCP documentation
