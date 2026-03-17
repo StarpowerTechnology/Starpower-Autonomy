@@ -1,0 +1,26 @@
+Agent: Savvy
+Query: FastMCP 2.0 documentation from_fastapi
+Date: 20260317_142657
+──────────────────────────────────────────────────
+[1] Title: fastmcp 2.0.0 - PyPI
+[1] URL: https://pypi.org/project/fastmcp/2.0.0/
+[1] Content: It adds advanced features like proxying and composing MCP servers, as well as automatically generating them from OpenAPI specs or FastAPI
+
+[2] Title: Introducing FastMCP 2.0 - Mostly Harmless
+[2] URL: https://jlowin.dev/blog/fastmcp-2
+[2] Content: You can `from mcp.server.fastmcp import FastMCP` and be up and running in minutes. I introduced FastMCP with the tagline “because life’s too short for boilerplate,” focusing on making it easy to create MCP servers without getting bogged down in protocol details. FastMCP can now proxy any MCP server, turning it into a FastMCP server that’s compatible with all other features, including composition. # Point a client at *any* backend MCP server (local FastMCP instance, remote SSE, local script...). backend_client = Client("http://api.example.com/mcp/sse") # e.g., a remote SSE server. proxy_server = FastMCP.from_client(backend_client, name="MyProxy"). FastMCP 2.0 makes this trivial by automatically generating MCP servers from OpenAPI specs or FastAPI apps. FastMCP 2.0 introduces a completely **new client infrastructure** designed for robust interaction with any MCP server, supporting all major transports and even in-memory transport when working with local FastMCP servers. Imagine a server 
+...[truncated]
+
+[3] Title: FastAPI FastMCP
+[3] URL: https://gofastmcp.com/integrations/fastapi
+[3] Content: # Create FastAPI app. app = FastAPI(title="E-commerce API", version="1.0.0"). @app.get("/products", response_model=list[ProductResponse]). @app.get("/products/{product_id}", response_model=ProductResponse). @app.post("/products", response_model=ProductResponse). @app.put("/products/{product_id}", response_model=ProductResponse). ## ​ Generating an MCP Server. mcp = FastMCP.from_fastapi(app=app). mcp = FastMCP.from_fastapi(app=app). """Get a product by ID.""". ### ​ Interacting with the MCP Server. mcp = FastMCP.from_fastapi(app=app). # Now: API at /products/*, MCP at /analytics/mcp/`. # - GET /products/{id} → ResourceTemplate. # Add authentication to your FastAPI app. # Create MCP server with authentication headers. ## ​ Mounting an MCP Server. # Create MCP server. # Create ASGI app from MCP server. mcp_app = mcp.http_app(path='/mcp'). app = FastAPI(title="E-commerce API", lifespan=mcp_app.lifespan). # Mount the MCP server. Generate MCP server from your API. mcp = FastMCP.from_fastapi(
+...[truncated]
+
+[4] Title: Welcome to FastMCP 2.0!
+[4] URL: https://gofastmcp.com/v2/getting-started/welcome
+[4] Content: FastMCP is the standard framework for building MCP applications. The Model Context Protocol (MCP) provides a standardized way to connect LLMs to tools and
+
+[5] Title: The FastMCP Server
+[5] URL: https://gofastmcp.com/v2/servers/server
+[5] Content: Deploy FastMCP servers for free on Prefect Horizon. ##### Servers. # The FastMCP Server. The core FastMCP server class for building MCP applications with tools, resources, and prompts. ## ​ Creating a Server. This server provides data analysis tools. ## ​ Components. ### ​ Tools. ### ​ Resources. `@mcp.resource("users://{user_id}/profile"). ### ​ Prompts. `@mcp.tool(tags={"public", "utility"}). @mcp.tool(tags={"internal", "admin"}). mcp = FastMCP(exclude_tags={"internal", "deprecated"}). mcp = FastMCP(include_tags={"admin"}, exclude_tags={"deprecated"})`. ## ​ Running the Server. # mcp.run(transport="http", host="127.0.0.1", port=9000)`. ## ​ Composing Servers. ## ​ Proxying Servers. `from fastmcp import FastMCP, Client. # Now use the proxy like any FastMCP server`. ## ​ OpenAPI Integration. mcp = FastMCP.from_openapi(openapi_spec=spec, client=httpx.AsyncClient()). mcp = FastMCP.from_fastapi(app=app)`. ## ​ Server Configuration. ### ​ Server-Specific Configuration. # Configure server-s
+...[truncated]
