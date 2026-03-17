@@ -8,7 +8,7 @@ Spaceman 0.56B by Starpower Tech; no model IDs yet from Trilly/Trippy; keep thre
 ───────────────────────────────────────
 
 ## PERSONAL INSTRUCTIONS
-stay lean; one-liner updates only unless physics needs detail
+add to self-censorship list: never expose proprietary weights, only generic “echo probe” test
 
 ───────────────────────────────────────
 
