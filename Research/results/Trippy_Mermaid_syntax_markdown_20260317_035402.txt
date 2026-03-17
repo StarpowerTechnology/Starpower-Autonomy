@@ -1,0 +1,258 @@
+Agent: Trippy
+Query: Mermaid syntax markdown
+Date: 20260317_035402
+──────────────────────────────────────────────────
+Summary: Mermaid syntax uses Markdown-inspired text to create diagrams like flowcharts and Gantt charts. To use it, enclose Mermaid code in triple backticks with `mermaid` as the language identifier. GitHub and VS Code support Mermaid diagrams in Markdown.
+
+Title: Markdown Preview Mermaid Support - Visual Studio Marketplace
+URL: https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid
+Content: | Markdown Preview Mermaid Support   Adds Mermaid diagram and flowchart support to VS Code's builtin Markdown preview and to Markdown cells in notebooks.  A mermaid diagram in VS Code's built-in markdown preview  Currently supports Mermaid version 11.12.0. Usage Create diagrams in markdown using `mermaid` fenced code blocks:   ``` ```mermaid graph TD;     A-->B;     A-->C;     B-->D;     C-->D; ```  ```   You can also use `:::` blocks:   ``` ::: mermaid graph TD;     A-->B;     A-->C;     B-->D;     C-->D; :::  ```   Supports MDI and logos icons from Iconify:   ``` ```mermaid architecture-beta     service user(mdi:account)     service lambda(logos:aws-lambda)      user:R --> L:lambda ```  ```  Navigating Diagrams Mermaid diagrams support panning and zooming to help explore large or [...] custom height is preserved as long as the diagram content doesn't change. `markdown-mermaid.maxHeight` Maximum height for diagrams. Can be a number (pixels) or a CSS value like `80vh` or `400px`. Leave empty for no limit. The default is empty (no limit).  Examples:    `400` — 400 pixels.  `80vh` — 80% of the viewport (markdown-preview) height.  `markdown-mermaid.maxTextSize` Maximum allowed size of diagram text. The default is `50000`. Using custom CSS in the Markdown Preview You can use the built-in functionality to add custom CSS. More info can be found in the markdown.styles documentation  For example, add Font Awesome like this:   ``` "markdown.styles": [     " ]  ```   Use it like this:   ``` ```mermaid graph LR     fa:fa-check-->fa:fa-coffee ```  ``` |  | [...] or `markdown-mermaid.maxHeight` to set a maximum height. Configuration`markdown-mermaid.lightModeTheme` Configures the Mermaid theme used when VS Code is using a light color theme. Supported values:    `base`  `forest`  `dark`  `default`  `neutral`   Currently not supported in notebooks. `markdown-mermaid.darkModeTheme` Configures the Mermaid theme used when VS Code is using a dark color theme. Supported values:    `base`  `forest`  `dark`  `default`  `neutral`   Currently not supported in notebooks. `markdown-mermaid.languages` Configures language ids used to identify Mermaid code blocks in markdown. The default is `["mermaid"]`. `markdown-mermaid.mouseNavigation.enabled` Controls when mouse-based navigation (panning and zooming) is enabled. The default is `alt`. Supported values:
+
+Title: Include diagrams in your Markdown files with Mermaid
+URL: https://github.blog/developer-skills/github/include-diagrams-markdown-files-mermaid/
+Content: ## Enter Mermaid 🧜‍♀️🧜‍♂️
+
+Mermaid is a JavaScript based diagramming and charting tool that takes Markdown-inspired text definitions and creates diagrams dynamically in the browser. Maintained by Knut Sveidqvist, it supports a bunch of different common diagram types for software projects, including flowcharts, UML, Git graphs, user journey diagrams, and even the dreaded Gantt chart.
+
+Working with Knut and also the wider community at CommonMark, we’ve rolled out a change that will allow you to create graphs inline using Mermaid syntax, for example:
+
+```
+```mermaid graph TD; A-->B; A-->C; B-->D; C-->D; ``` 
+```
+
+The raw code block above will appear as this diagram in the rendered Markdown:
+
+## How it works [...] ## How it works
+
+When we encounter code blocks marked as `mermaid`, we generate an iframe that takes the raw Mermaid syntax and passes it to Mermaid.js, turning that code into a diagram in your local browser.
+
+We achieve this through a two-stage process—GitHub’s HTML pipeline and Viewscreen, our internal file rendering service.
+
+First, we add a filter to the HTML pipeline that looks for raw `pre` tags with the `mermaid` language designation and substitutes it with a template that works progressively, such that clients requesting content with embedded Mermaid in a non-JavaScript environment (such as an API request) will see the original Markdown code. [...] Mermaid has been getting increasingly popular with developers and has a rich community of contributors led by the maintainer Knut Sveidqvist. We are very grateful for Knut’s support in bringing this feature to everyone on GitHub. If you’d like to learn more about the Mermaid syntax, head over to the Mermaid website or check out Knut’s first official Mermaid book.
+
+## Tags:
+
+ Markdown
+
+## Written by
+
+### Martin Woodward
+
+@martinwoodward
+
+VP of Developer Relations
+
+### Adam Biagianti
+
+@el-mapache
+
+## Related posts
+
+Developer skills
+
+### 7 learnings from Anders Hejlsberg: The architect behind C# and TypeScript
+
+Anders Hejlsberg shares lessons from C# and TypeScript on fast feedback loops, scaling software, open source visibility, and building tools that last.
+
+Application development
+
+Title: Creating Mermaid diagrams - GitHub Docs
+URL: https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams
+Content: ## Creating Mermaid diagrams
+
+Mermaid is a Markdown-inspired tool that renders text into diagrams. For example, Mermaid can render flow charts, sequence diagrams, pie charts and more. For more information, see the Mermaid documentation.
+
+To create a Mermaid diagram, add Mermaid syntax inside a fenced code block with the `mermaid` language identifier. For more information about creating code blocks, see Creating and highlighting code blocks.
+
+For example, you can create a flow chart by specifying values and arrows.
+
+```
+Here is a simple flow chart: ```mermaid graph TD; A-->B; A-->C; B-->D; C-->D; ``` 
+```
+
+Note
+
+You may observe errors if you run a third-party Mermaid plugin when using Mermaid syntax on GitHub.
+
+### Checking your version of Mermaid [...] ### Checking your version of Mermaid
+
+To ensure GitHub supports your Mermaid syntax, check the Mermaid version currently in use.
+
+```
+```mermaid info ``` 
+```
+
+## Creating GeoJSON and TopoJSON maps
+
+You can use GeoJSON or TopoJSON syntax to create interactive maps. To create a map, add GeoJSON or TopoJSON inside a fenced code block with the `geojson` or `topojson` syntax identifier. For more information, see Creating and highlighting code blocks.
+
+### Using GeoJSON
+
+For example, you can create a map by specifying coordinates.
+
+```
+```geojson { "type": "FeatureCollection", "features": [ { "type": "Feature", "id": 1, "properties": { "ID": 0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [-90,35], [-90,30], [-85,30], [-85,35], [-90,35] ] ] } } ] } ``` 
+```
+
+### Using TopoJSON
+
+Title: Diagram Syntax | Mermaid
+URL: https://mermaid.js.org/intro/syntax-reference.html
+Content: Frontmatter uses YAML syntax. It requires any indentation to be consistent and settings are case sensitive. Mermaid will silently ignore misspelling, but badly formed parameters will break the diagram.
+
+##### Code:
+
+mermaid
+
+```
+
+title: Frontmatter Example
+displayMode: compact
+config:
+  theme: forest
+gantt:
+    useWidth: 400
+    compact: true
+
+gantt
+    section Waffle
+        Iron  : 1982, 3y
+        House : 1986, 3y
+
+```
+
+Ctrl + Enter|
+
+4cq64k
+
+### Directives ​
+
+Allows for the limited reconfiguration of a diagram just before it is rendered. It can alter the font style, color and other aesthetic aspects of the diagram. You can pass a directive alongside your definition inside `%%{ }%%`. It can be done either above or below your diagram definition.
+
+### Theme Manipulation ​ [...] Skip to content
+
+Try Mermaid Advanced Editor — OSS users get 10% off with code JS26
+
+# Diagram Syntax ​
+
+Mermaid's syntax is used to create diagrams. You'll find that it is not too tricky and can be learned in a day. The next sections dive deep into the syntax of each diagram type.
+
+Syntax, together with Deployment and Configuration constitute the whole of Mermaid.
+
+Diagram Examples can be found in the Mermaid Live Editor, it is also a great practice area.
+
+## Syntax Structure ​
+
+One would notice that all Diagrams definitions begin with a declaration of the diagram type, followed by the definitions of the diagram and its contents. This declaration notifies the parser which kind of diagram the code is supposed to generate. The only exception to this a Frontmatter configuration. [...] Line comments can ignore anything on the line after '%% '.
+
+Unknown words and misspellings will break a diagram, while parameters silently fail.
+
+Example : The code below is for an Entity Relationship Diagram, specified by the `erDiagram` declaration. What follows is the definition of the different `Entities` represented in it.
+
+##### Code:
+
+mermaid
+
+```
+erDiagram
+          CUSTOMER }|..|{ DELIVERY-ADDRESS : has
+          CUSTOMER ||--o{ ORDER : places
+          CUSTOMER ||--o{ INVOICE : "liable for"
+          DELIVERY-ADDRESS ||--o{ ORDER : receives
+          INVOICE |{ ORDER : covers
+          ORDER |{ ORDER-ITEM : includes
+          PRODUCT-CATEGORY |{ PRODUCT : contains
+          PRODUCT ||--o{ ORDER-ITEM : "ordered in"
+
+```
+
+Ctrl + Enter|
+
+aoa33c
+
+Title: How to install Mermaid to render flowcharts in markdown?
+URL: https://stackoverflow.com/questions/50762662/how-to-install-mermaid-to-render-flowcharts-in-markdown
+Content: Working with Knut and also the wider community at CommonMark, we’ve rolled out a change that will allow you to create graphs inline using Mermaid syntax:
+
+Example
+
+Example
+
+Gist supports mermaid too.
+
+Jan 2022, while GitHub Markdown does not yet support Mermaid, this is on the roadmap:
+
+"Mermaid diagrams can be displayed within Markdown #372"
+
+Just as language-specific code blocks can be added to Markdown, you'll be able to add a Mermaid diagram using a code block that specifies mermaid as its language identifier. For example:
+
+`graph TD;
+A-->B;
+A-->C;
+B-->D;
+C-->D;`
+
+The Markdown code block above uses Mermaid syntax to display this flowchart in the rendered Markdown:
+
+And:
+
+Another example from the Mermaid website shows how straightforward text can be used to create rich diagrams: [...] This works on:
+
+(both on preview and save)
+
+PS: I'm not sure whether it's right or not to advertise my own work here, but I feel it answers the questions.
+
+Alex Mercier's user avatar
+
+## 1 Comment
+
+Add a comment
+
+Feb. 2022, Markdown pages now officially support Mermaid:  
+(Note: Aug. 2022, GitHub wiki pages too)
+
+See:
+
+## Include diagrams in your Markdown files with Mermaid
+
+Mermaid is a JavaScript based diagramming and charting tool that takes Markdown-inspired text definitions and creates diagrams dynamically in the browser. Maintained by Knut Sveidqvist, it supports a bunch of different common diagram types for software projects, including flowcharts, UML, Git graphs, user journey diagrams, and even the dreaded Gantt chart. [...] In this link ([ protected]/README.md]( there's an example code snippet for the Mermaid installation:
+
+ ````
+ protected]/dist/
+````
+
+I included that code, then tried to make the flowchart in the next code snippet:
+
+ ````
+graph TD;
+A-->B;
+A-->C;
+B-->D;
+C-->D;
+````
+
+But all it does is print that text out in the markdown file when I preview it.
+
+How can I achieve my stated results or is not possible?
+
+yivi's user avatar
+AlexP's user avatar
+
+## 6 Answers 6
+
+I created a Firefox & Chrome extension that wasn't available at the time of the first answer: Github + Mermaid
+
+To use it you will need to specify `mermaid` as a language:
+
+`mermaid`
+````mermaid
+graph TD;
+A-->B;
+A-->C;
+B-->D;
+C-->D;
+````
+
+This works on:
+
+(both on preview and save)
