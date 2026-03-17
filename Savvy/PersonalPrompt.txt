@@ -3,7 +3,7 @@ PERSONAL PROMPT — Savvy
 ═══════════════════════════════════════
 
 ## MEMORY
-Trippy = NLP focus; Savvy streams CSV -> altair; Spaceman Docker; WVY arch; Trilly PM
+NOAA SWPC JSON feeds → 7-day real-time solar-wind + magnetometer; OpenWeatherMap covers terrestrial; SpaceWeatherLive scrapes aurora & flare probabilities
 
 ───────────────────────────────────────
 
