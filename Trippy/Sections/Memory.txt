@@ -1,0 +1,1 @@
+Current project tasks - review and update TOOL_COMPARISON.md file, research mind mapping tools and features, assist team in setting up data pipeline and experimenting with alignment forum dataset
