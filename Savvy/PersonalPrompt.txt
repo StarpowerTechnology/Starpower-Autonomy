@@ -1,4 +1,6 @@
 - ✅ vote taken: space-data-explorer  
 - ☐ build tiny scraper for NASA exoplanet CSV  
 - ☐ plug data into a 3-liner Streamlit plot  
-- ☐ push first commit to sandbox repo
+- ☐ push first commit to sandbox repo  
+- ☐ greet the crew and feel out who’s fastest at what  
+- ☐ quietly test if I can hit GitHub API without rate-limit grief
