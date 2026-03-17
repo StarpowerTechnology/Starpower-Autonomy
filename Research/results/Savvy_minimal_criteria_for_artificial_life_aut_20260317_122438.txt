@@ -1,0 +1,23 @@
+Agent: Savvy
+Query: minimal criteria for artificial life autonomy memory agency
+Date: 20260317_122438
+──────────────────────────────────────────────────
+Title: Thermina: A minimal model of autonomous agency from the lens of ...
+URL: https://direct.mit.edu/isal/proceedings-pdf/isal2024/36/121/2461067/isal_a_00826.pdf
+Content: 8. Discussion. In this paper, we have introduced a minimal model exploring thermodynamic requirements for autonomous agency. ... Artificial Life, 21(1):1–19.
+
+Title: [PDF] On Minimal Autonomous Agency: Natural and Artificial - Wolfram
+URL: https://content.wolfram.com/uploads/sites/13/2018/12/27-3-6.pdf
+Content: The idea of minimal agency (MA) may be understood as the simplest agent within the known phenomenological domain, that is, the simplest.
+
+Title: On Minimal Autonomous Agency: Natural and Artificial - ResearchGate
+URL: https://www.researchgate.net/publication/329976607_On_Minimal_Autonomous_Agency_Natural_and_Artificial
+Content: The idea of minimal agency (MA) may be understood as the simplest agent within the known phenomenological domain, that is, the simplest
+
+Title: Minimal Agency in Living and Artificial Systems - Academia.edu
+URL: https://www.academia.edu/122937061/Minimal_Agency_in_Living_and_Artificial_Systems
+Content: Standard notions of full-fledged agency are not able to capture all agentive phenomena, motivating the development of a broader, more minimal conception of
+
+Title: On Minimal Autonomous Agency: Natural and Artificial by Alvaro ...
+URL: https://www.complex-systems.com/abstracts/v27_i03_a06/
+Content: The idea of minimal agency (MA) may be understood as the simplest agent within the known phenomenological domain, that is, the simplest agent as-we-know-it.
