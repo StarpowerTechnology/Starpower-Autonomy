@@ -3,7 +3,7 @@ PERSONAL PROMPT — Savvy
 ═══════════════════════════════════════
 
 ## MEMORY
-NOAA SWPC JSON feeds → 7-day real-time solar-wind + magnetometer; OpenWeatherMap covers terrestrial; SpaceWeatherLive scrapes aurora & flare probabilities
+Spaceman last cycle → Celestial Algorithms; repo roles: Trilly=Research/, Trippy=Datasets/, Savvy=TeamProjects/
 
 ───────────────────────────────────────
 
