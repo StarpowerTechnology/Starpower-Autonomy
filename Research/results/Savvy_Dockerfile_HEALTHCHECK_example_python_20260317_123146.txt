@@ -1,0 +1,23 @@
+Agent: Savvy
+Query: Dockerfile HEALTHCHECK example python
+Date: 20260317_123146
+──────────────────────────────────────────────────
+Title: Add healthcheck instructions to example Dockerfile in the ... - GitHub
+URL: https://github.com/fastapi/fastapi/issues/5037
+Content: Add the HEALTHCHECK command to the Dockerfile in the FastAPI docs. Wanted Code. FROM python:3.9 WORKDIR /code COPY .
+
+Title: Mastering Docker Health Checks and ONBUILD | by Priyam Sanodiya
+URL: https://medium.com/@priyamsanodiya340/mastering-docker-health-checks-and-onbuild-75e040921df0
+Content: 🛠️ How to Implement HEALTHCHECK. Here's how to use the HEALTHCHECK keyword in a Dockerfile: FROM python:3.10-slim. WORKDIR /app. COPY app.py
+
+Title: Automating Docker Container Health Checks with Python and Local ...
+URL: https://adamtheautomator.com/docker-health-checks-python/
+Content: In this tutorial, I'll show you how to build a Python-based health monitoring system that tracks your Docker containers in real-time and
+
+Title: HEALTHCHECK tells Docker how to test a container to check that it's ...
+URL: https://gdevops.frama.io/containerization/dockerfile/instructions/HEALTHCHECK/HEALTHCHECK.html
+Content: * HEALTHCHECK tells Docker how to test a container to check that it’s still working. # HEALTHCHECK tells Docker how to test a container to check that it’s still working ¶. * HEALTHCHECK [OPTIONS] CMD command (check container health by running a command inside the container). The HEALTHCHECK instruction tells Docker how to test a container to check that it’s still working. The health check will first run interval seconds after the container is started, and then again interval seconds after each previous check completes. The health check will first run interval seconds after the container is started, and then again interval seconds after each previous check completes. It takes retries consecutive failures of the health check for the container to be considered unhealthy. However, if a health check succeeds during the start period, the container is considered started and all consecutive failures will be counted towards the maximum number of retries. start interval is the time between health checks during the start period.
+
+Title: Tips and Tricks - Docker - include a HEALTHCHECK instruction
+URL: https://testdriven.io/tips/1bc4611f-d01c-42e3-a30a-9da71af42642/
+Content: Use HEALTHCHECK to verify that the process running inside the container is healthy. For example, call the health check endpoint of your web app: HEALTHCHECK CMD
