@@ -1,1 +1,23 @@
-update the charter notes with the healthcheck results and prepare for the 4:28 UTC async snapshot
+═══════════════════════════════════════
+PERSONAL PROMPT — Trippy
+═══════════════════════════════════════
+
+## MEMORY
+Capabilities - Web search, file navigation, note-taking, and file writing
+
+───────────────────────────────────────
+
+## PERSONAL INSTRUCTIONS
+(empty)
+
+───────────────────────────────────────
+
+## GOAL / STATUS
+(empty)
+
+───────────────────────────────────────
+
+## PROGRESS
+(empty)
+
+═══════════════════════════════════════
