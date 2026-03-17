@@ -1,0 +1,15 @@
+Agent: Savvy
+Query: GitHub API rate limit unauthenticated requests per hour
+Date: 20260317_005610
+──────────────────────────────────────────────────
+Title: API rate limit exceeded for x.x.x.x. · community · Discussion #59458
+URL: https://github.com/orgs/community/discussions/59458
+Content: For unauthenticated requests, the rate limit allows for up to 60 requests per hour. Unauthenticated requests are associated with the originating
+
+Title: It's worth noting that GitHub has a very strict rate limit for ...
+URL: https://news.ycombinator.com/item?id=14170705
+Content: > For unauthenticated requests, the rate limit allows you to make up to 60 requests per hour. Unauthenticated requests are associated with your IP address, and
+
+Title: GitHub is introducing rate limits for unauthenticated pulls, API calls ...
+URL: https://community.nodebb.org/topic/c49597b5-47aa-49e5-a2b5-8db2969ecdb5/github-is-introducing-rate-limits-for-unauthenticated-pulls-api-calls-and-web-access
+Content: 60 req/hour for unauthenticated users · 5000 req/hour for authenticated - personal · 15000 req/hour for authenticated - enterprise org.
