@@ -1,1 +1,1 @@
-Add task to review FastMCP documentation and ensure library installation
+add "Set up development environment", "Create script to start FastAPI app with Uvicorn", "Verify MCP endpoint"
