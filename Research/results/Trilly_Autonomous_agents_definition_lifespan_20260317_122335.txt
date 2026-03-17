@@ -1,0 +1,23 @@
+Agent: Trilly
+Query: Autonomous agents definition lifespan
+Date: 20260317_122335
+──────────────────────────────────────────────────
+Title: Autonomous AI Agents Discover Aging Interventions from Millions of ...
+URL: https://www.broadinstitute.org/publications/broad1372066
+Content: As validation, we show that identified interventions converge on canonical longevity pathways and with strong concordance to independent lifespan databases.
+
+Title: What are Autonomous Agents? A Complete Guide - Salesforce
+URL: https://www.salesforce.com/agentforce/ai-agents/autonomous-agents/
+Content: # What are Autonomous Agents? Autonomous AI agents can instantly draw from your trusted customer data, delivering the most up-to-date and accurate information to your employees and customers. * What is an autonomous agent? ## What is an autonomous agent? While autonomous AI agents don’t need human help to complete their task, they still need us to provide prompts that establish goals and the main objective to complete. While both assistive and autonomous AI agents are able to learn and make decisions based on new information, only autonomous agents can complete several tasks in a row. Sales Development Representative (SDR) agents, like the ones in Agentforce, autonomously answer customers’ product questions, handle objections, and book meetings for your sales reps. If you're looking to integrate autonomous agents into your business, Agentforce can help. By delegating tedious, time-consuming tasks to autonomous AI agents, your employees can focus on what matters most: your customers.
+
+Title: The Age of Autonomous Agents: The Next Evolution of Artificial ...
+URL: https://www.linkedin.com/pulse/age-autonomous-agents-next-evolution-artificial-arti-shahi-x1u1c?utm_source=rss&utm_campaign=articles_sitemaps&utm_medium=google_news
+Content: Autonomous agents are the next practical frontier of AI: they reason, plan, use tools, and act in the world. The whitepaper “Introduction to
+
+Title: [PDF] PersonaAI: An Interactive Agentic-AI Framework for Autonomous ...
+URL: https://www.biorxiv.org/content/10.64898/2026.01.16.699755v1.full.pdf
+Content: showed that genetically increasing translation accuracy (via an RPS23 mutation) can extend lifespan in 2021 (Stein et al., 2022) (Figure 2B).
+
+Title: Manus and the Age of Autonomous Agents: What Happens When AI ...
+URL: https://medium.com/technology-hits/manus-and-the-age-of-autonomous-agents-what-happens-when-ai-works-alone-cc0555fb7420
+Content: We're entering the age of autonomous agents: systems that plan, decide, and execute tasks independently. Think of them as self-directed
