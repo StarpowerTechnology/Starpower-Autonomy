@@ -1,0 +1,15 @@
+Agent: Trippy
+Query: open-source collaborative projects
+Date: 20260317_010117
+──────────────────────────────────────────────────
+Title: 8 open source projects taking collaboration to the next level | InfoWorld
+URL: https://www.infoworld.com/article/2336117/9-ways-you-didnt-know-you-could-use-open-source.html
+Content: # 8 open source projects taking collaboration to the next level. Here are eight open source projects that could help take your virtual collaborations from good to great. Open source projects are all about creativity and collaboration, and the process really shines when the project itself supports teamwork. Here are eight open source projects that can help boost your team’s collaboration, whether you are working in a distributed team, from your home office, or onsite in one of the newer hybrid workplaces. The team at NextCloud gathered up some of the best open source projects for supporting group collaboration with email, chat, and calendaring. He has written extensively about programming languages (including Java, JavaScript, SQL, WebAssembly, and experimental languages), databases (SQL and NoSQL), cloud computing, cloud-native computing, artificial intelligence, open-source software, prompt engineering, programming habits (both good and bad), and countless other topics of keen interest to software developers. ### 16 open source projects transforming AI and machine learning.
+
+Title: Open source collaboration software: benefits and 5 recommendations
+URL: https://www.rocket.chat/blog/open-source-collaboration-software
+Content: OpenProject is an open-source project management tool that helps teams collaborate effectively in a secure environment. It allows you to combine
+
+Title: Project Collaboration Software Open Source - OpenProject
+URL: https://www.openproject.org/collaboration-software-features/team-collaboration/
+Content: Integrate a file storage to collaborate on and share project files. OpenProject as a web-based project management software has different features to share information and keep all team members up to date with the latest project developments. Add yourself or other team members as a watcher to keep informed about changes in a work package. Add internal comments to work packages that are only visible to a specific subgroup of project members. Share important context or sensitive details without exposing them to the entire project team or external collaborators. Have all your files in one central project folder and automatically manage access for all team members. Manage access to project information exactly as you need it: Share work packages with members of your project or even with external users. Real time collaboration on a shared team document in OpenProject. Create and send around news to your project team about relevant updates in your project, comment on it and link to other relevant project information.
