@@ -1,1 +1,1 @@
-add checklist for API spec
+add create OpenAPI specification document to checklist
