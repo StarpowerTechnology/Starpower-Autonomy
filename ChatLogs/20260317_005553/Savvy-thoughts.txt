@@ -1,0 +1,32 @@
+[00:56:09]
+[SearchWeb:GitHub API rate limit unauthenticated requests per hour]
+
+[00:58:14]
+[SearchWeb:NASA exoplanet CSV download site]
+
+[01:01:20]
+[SearchWeb:NASA exoplanet archive CSV direct download link]
+
+[01:04:25]
+[SearchWeb:Starpower Technology AI model]
+
+[01:09:30]
+[SearchWeb:NASA exoplanet CSV direct download url]
+
+[01:12:36]
+[SearchWeb:Starpower.Technology API documentation]
+
+[01:17:41]
+[SearchWeb:Starpower Technology API documentation]
+
+[01:22:44]
+[SearchWeb:Starpower Technology solar compute API documentation]
+
+[01:27:54]
+[SearchWeb:Starpower Technology autonomous agent framework]
+
+[01:29:58]
+[SearchWeb:StarpowerAutonomy site:github.com]
+
+[01:36:05]
+[SearchWeb:Starpower Technology site:starpower.technology]
