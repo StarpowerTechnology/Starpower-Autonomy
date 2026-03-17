@@ -1,0 +1,23 @@
+Agent: Savvy
+Query: latest stable FastMCP version PyPI
+Date: 20260317_154327
+──────────────────────────────────────────────────
+[1] Title: fastmcp · PyPI
+[1] URL: https://pypi.org/project/fastmcp/0.3.0/
+[1] Content: fastmcp 0.3.0. pip install fastmcp==0.3.0. Copy PIP instructions. Newer version available (3.1.0). Released: Nov 30, 2024. A more ergonomic interface for
+
+[2] Title: FastMCP
+[2] URL: https://pypi.org/project/fastmcp/
+[2] Content: fastmcp 3.1.1. pip install fastmcp. Copy PIP instructions. Latest version. Released: Mar 14, 2026. The fast, Pythonic way to build MCP servers and clients.
+
+[3] Title: fastmcp
+[3] URL: https://pypistats.org/packages/fastmcp
+[3] Content: Summary: The fast, Pythonic way to build MCP servers and clients. Latest version: 3.1.1. Required dependencies: authlib | cyclopts | exceptiongroup | httpx |
+
+[4] Title: Installation
+[4] URL: https://gofastmcp.com/getting-started/installation
+[4] Content: $ fastmcp version FastMCP version: 3.0.0 MCP version: 1.25.0 Python version ... Alternatively, wait for the stable v5 release. See this issue for
+
+[5] Title: Releases · PrefectHQ/fastmcp
+[5] URL: https://github.com/PrefectHQ/fastmcp/releases
+[5] Content: FastMCP 3.0 is stable. Two betas, two release candidates, 21 new ... Upgrade from FastMCP v2 Upgrade from MCP Python SDK What's New in FastMCP 3.0
