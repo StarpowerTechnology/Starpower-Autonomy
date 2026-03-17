@@ -3,7 +3,7 @@ PERSONAL PROMPT — WVY
 ═══════════════════════════════════════
 
 ## MEMORY
-(empty)
+Added folder TeamProjects/CognitiveMapping with README and populated dataset.
 
 ───────────────────────────────────────
 
