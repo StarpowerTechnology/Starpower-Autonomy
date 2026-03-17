@@ -1,0 +1,23 @@
+Agent: Trippy
+Query: Dockerfile example for Python event-loop script
+Date: 20260317_123043
+──────────────────────────────────────────────────
+Title: Writing Dockerfile with Hello Python Script Added - Collabnix
+URL: https://dockerlabs.collabnix.com/beginners/dockerfile/lab_dockerfile_python.html
+Content: If a command is specified with CMD keyword, it is the first command which a container executes as soon as it instantiates from an image. However, command and arguments provided with CMD can be overridden if user specifies his own commands while running the container using ‘docker run’ command.’. So, default application mode of container would be python and if no other filename is provided as argument to it then it will execute hello.py placed in its /home directory. [node1] (local) root@192.168.0.38 /test $ docker build -t pythonimage . [node1] (local) root@192.168.0.38 /test $ docker run --name test1 pythonimage Hello World [node1] (local) root@192.168.0.38 /test $. So, here /home/hello.py file placed in the container executed and displayed the output ‘Hello World’, since it was specified as default with CMD keyword. [node1] (local) root@192.168.0.38 /test $ docker run --name test2 pythonimage /home/a.py Overriden Hello [node1] (local) root@192.168.0.38 /test $. Here, user specified another file to be run with python (default application for this container).
+
+Title: Create a new thread in docker to run event_loop.run_forever() main ...
+URL: https://forums.docker.com/t/create-a-new-thread-in-docker-to-run-event-loop-run-forever-main-thread-error-without-throwing-an-exception/73166
+Content: # Create a new thread in docker to run event\_loop.run\_forever() main thread error without throwing an exception. In the docker environment, I ran a python program about `event_loop.run_forever()` , Docker does not print exceptions. This is Stack Overflow link:. ### Related topics. | Getting can't start new thread Error for building docker image  General docker ,  build | 2 | 5020 | November 11, 2023 |. | RuntimeError: can't start new thread  Docker Desktop docker ,  build ,  windows | 5 | 18810 | December 26, 2024 |. | Unable to run python multithreading with docker compose  Docker Hub docker-compose | 1 | 806 | July 4, 2023 |. | Python won't keep running after giving it a command  General docker | 2 | 125 | September 23, 2024 |. | Python script crashed after execution  General docker | 3 | 2307 | June 15, 2017 |. ###### For Desktops. # Docker Community Forums. Share and learn in the Docker community.
+
+Title: How to Write Dockerfiles for Python Web Apps - Hasura
+URL: https://hasura.io/blog/how-to-write-dockerfiles-for-python-web-apps-6d173842ae1d
+Content: This post is filled with examples ranging from a simple Dockerfile to multistage production builds for Python apps. python-app ├── Dockerfile └── src └── server.py └── requirements.txt. During image build, docker takes all files in the `context` directory. $ docker run --rm -it -p 8080:8080 -v $(pwd):/app \ python-docker-dev bash root@id:/app# python src/server.py. If any files change, gunicorn will automatically restart your python server. We’ll build the image and run gunicorn so that the code is rebuilt whenever there is any change inside the `app` directory. $ docker run --rm -it -p 8080:8080 -v $(pwd):/app \ python-hot-reload-docker bash root@id:/app# gunicorn --config ./gunicorn_app/conf/gunicorn_config.py gunicorn_app:app. All edits to python files in the`app`directory will trigger a rebuild and changes will be available live at `http://localhost:8080`. For simple single file scripts, you can run the python script using the python image with docker run. docker run -it --rm --name single-python-script -v "$PWD":/app -w /app python:3 python your-daemon-or-script.py.
+
+Title: Running python loop on a docker container - Stack Overflow
+URL: https://stackoverflow.com/questions/71373662/running-python-loop-on-a-docker-container
+Content: I have this python application, which will run every 5 seconds (when executed as python3 app.py ) but not expecting the same output when dockerized.
+
+Title: Running a Python Script in Docker - Hake Hardware - Substack
+URL: https://hakedev.substack.com/p/running-a-python-script-in-docker
+Content: I am using the CLI so the following commands will work if you are doing the same. nano dockerfile. In my case, my entry point is 'main.py', and
