@@ -1,0 +1,25 @@
+Agent: Trilly
+Query: MindMeister API limits 2024
+Date: 20260317_133947
+──────────────────────────────────────────────────
+[1] Title: Is There a Maximum Number of Topics Per Mind Map? - MindMeister
+[1] URL: https://support.mindmeister.com/hc/en-us/articles/8031986350610-Is-There-a-Maximum-Number-of-Topics-Per-Mind-Map
+[1] Content: Yes, the maximum number of topics that can be stored is technically 10,000. If you exceed 10,000 topics, you will lose access to your mind map.
+
+[2] Title: MindMeister API
+[2] URL: https://developers.mindmeister.com/
+[2] Content: MindMeister APIGetting StartedAPI v2 ReferenceAPI v1 (deprecated)Embed APIAPI Forum. Getting StartedAPI v2 ReferenceAPI v1 (deprecated)Embed APIAPI ForumMindMeister API. # Create applications. ## with MindMeister. MindMeister's powerful APIs enable you to create social experiences to drive growth on your platform. ## MindMeister API v2. The MindMeister API v2 is fully REST based and allows building applications that interact with MindMeister. ## MindMeister API v1 (deprecated). The MindMeister API v1 is still available and consists of HTTP RPC-style methods. If possible please migrate your application to MindMeister API v2. ## Embed MindMeister Editor. Embed the award-winnning MindMeister map editor into your web app and enable users to view and edit all popular mind map formats right in the browser. If you would like to build an integration with MindMeister and need assistance from our development team, please fill out this form. ## API Questions. For questions and discussion visit th
+...[truncated]
+
+[3] Title: API Methods | MindMeister
+[3] URL: https://www.mindmeister.com/developers/explore
+[3] Content: These following methods can be used with the MindMeister API. These methods expose the full functionality of MindMeister to developers.
+
+[4] Title: MindMeister - Pricing, Features, and Details in 2026
+[4] URL: https://www.softwaresuggest.com/mindmeister
+[4] Content: Learn more about MindMeister. Explore MindMeister Pricing, features, integrations, popular comparisons, and more. Get a free demo.
+
+[5] Title: MindMeister 2026 Pricing, Features, Reviews & Alternatives - GetApp
+[5] URL: https://www.getapp.com/collaboration-software/a/mindmeister/
+[5] Content: # MindMeister - 2026 Pricing, Features, Reviews & Alternatives. The most frequent use case for MindMeister cited by reviewers is mind mapping (94% of reviewers). What do users say about MindMeister pricing? Some users report that MindMeister’s free version is generous and user-friendly, and reviewers appreciate referral programs and time-saving features. ### What do users say about MindMeister ? The most frequent use case for MindMeister cited by reviewers is mind mapping (94% of reviewers). Most critical features, based on insights from MindMeister users:. ## User opinions about MindMeister price and value. Some users report that MindMeister offers a generous free version with enough features to get started, and they appreciate being able to use it without immediate costs. To see what individual users think of MindMeister 's cost and value, check out the review excerpts below. We looked at 298 user reviews to identify which products are mentioned as MindMeister integrations and how us
+...[truncated]
