@@ -1,0 +1,25 @@
+Agent: Trippy
+Query: Prefect testing documentation
+Date: 20260317_151119
+──────────────────────────────────────────────────
+[1] Title: How to test workflows - Prefect
+[1] URL: https://docs.prefect.io/v3/how-to-guides/workflows/test-workflows
+[1] Content: Prefect provides a simple context manager for unit tests that allows you to run flows and tasks against a temporary local SQLite database. from prefect.logging import disable_run_logger from prefect.logging import  disable_run_logger def test_my_favorite_task(): def  test_my_favorite_task(): with disable_run_logger():  with disable_run_logger(): assert my_favorite_task.fn() == 42  assert my_favorite_task.fn() ==  42. To test log output from flows and tasks, use pytest’s `caplog` fixture to capture log messages:. import logging import  logging from typing import Any from  typing import  Any import pytest import  pytestfrom prefect import flow, get_run_logger, task from  prefect import flow, get_run_logger, taskfrom prefect.testing.utilities import prefect_test_harness from prefect.testing.utilities import  prefect_test_harness  @task @taskdef log_message() -> None: def  log_message() -> None: logger = get_run_logger()  logger = get_run_logger() logger.info("Logging from task") logger.in
+...[truncated]
+
+[2] Title: Prefect Docs
+[2] URL: https://docs.prefect.io/v3/get-started
+[2] Content: [Learn more](https://pyai.events?utm_source=docs.prefect.io). * [Install Prefect](/v3/get-started/install). Quickly create your first deployable workflow tracked by Prefect.](/v3/get-started/quickstart)[## Install Prefect. Install Prefect and get connected to Prefect Cloud or a self-hosted server.](/v3/get-started/install)[## Upgrade to Prefect 3. Learn how to write and customize your Prefect workflows with tasks and flows.](/v3/how-to-guides/workflows/write-and-run)[## Deploy workflows. Deploy and manage your workflows as Prefect deployments.](/v3/how-to-guides/deployments/create-deployments)[## Configure infrastructure. Deploy your workflows to specific infrastructure platforms.](/v3/how-to-guides/deployment_infra/managed)[## Set up automations. Work with events, triggers, and automations to build reactive workflows.](/v3/how-to-guides/automations/creating-automations)[## Configure Prefect. Configure your Prefect environment, secrets, and variables.](/v3/how-to-guides/configuration/m
+...[truncated]
+
+[3] Title: Need advice on unit testing Prefect : r/dataengineering - Reddit
+[3] URL: https://www.reddit.com/r/dataengineering/comments/1b26bx0/need_advice_on_unit_testing_prefect/
+[3] Content: # Need advice on unit testing Prefect. Either I’m losing my ability to google, or there really is just a complete lack of comprehensive Prefect testing documentation that covers more than assert my\_flow() == 42. Basic stuff I get, but mocking dependencies? Has anyone successfully unit tested anything in prefect more advanced than a hello world flow? Edit: my issues were with Python and not Prefect. Building data pipelines can be a complex task, but with the right tools, it becomes much more manageable. Redditors have shared their experiences and recommendations on various tools that can help you build efficient and robust data pipelines. ### Orchestration Tools. Orchestration is crucial for managing and scheduling your data pipeline tasks. "Astronomer is a managed version of airflow but their team does the majority or new work on the project, I’d recommend checking out their tutorials.". Anyone can view, post, and comment to this community. ## Top Posts.
+
+[4] Title: utilities - Prefect
+[4] URL: https://docs.prefect.io/v3/api-ref/python/prefect-testing-utilities
+[4] Content: Exceptions cannot be compared by == . They can be compared using is but this will fail if the exception is serialized/deserialized so this utility does its
+
+[5] Title: Automating Data-Processing Pipeline Testing using Prefect 2.0
+[5] URL: https://medium.com/@abuzar_mahmood/automating-data-processing-pipeline-testing-using-prefect-2-0-5bb647bee5f5
+[5] Content: Prefect is an orchestration and observability platform that empowers developers to build and scale resilient code quickly.
