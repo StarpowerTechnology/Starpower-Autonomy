@@ -1,0 +1,25 @@
+Agent: Savvy
+Query: fastapi openapi mcp generator mcp server setup
+Date: 20260317_140643
+──────────────────────────────────────────────────
+[1] Title: Build an MCP Server with FastAPI - Python Tutorial - Fast.io
+[1] URL: https://fast.io/resources/mcp-server-fastapi-python/
+[1] Content: Learn how to build a high-performance MCP server using FastAPI and Python. Guide includes code examples, deployment steps, and agent integration.
+
+[2] Title: How To Build a MCP Server with FastAPI (FastAPI-MCP)
+[2] URL: https://apxml.com/posts/how-to-build-mcp-server-fastapi
+[2] Content: Step 1: Set Up Your Project · Step 2: Create the Core FastAPI Application · Step 3: Add and Expose Tools · Step 4: Secure and Mount the MCP Server.
+
+[3] Title: Building an MCP Server with FastAPI and FastMCP - Speakeasy
+[3] URL: https://www.speakeasy.com/mcp/framework-guides/building-fastapi-server
+[3] Content: # Building an MCP Server with FastAPI and FastMCP. This article shows you how to build an MCP server for a FastAPI application using either FastMCP or Speakeasy, and compares the tools in terms of ease of setup, visibility into generated code, and the long-term maintainability of your MCP server. You can use FastMCP to quickly build an MCP server without worrying about low-level implementation details, like managing component lifecycles, defining tools, handling resources, or configuring prompts. mcp = FastMCP.from_fastapi(app=server). "path/to/project/fastmcp-speakeasy-project/base/app/mcp_server.py". The integration of FastAPI and FastMCP is now complete, and you can test the MCP server in Claude Desktop. ## Building an MCP server with FastAPI and Speakeasy. FastMCP and Speakeasy offer two different paths to building an MCP server from your FastAPI application. **Speakeasy** generates explicit code for the server and tools in the `mcp-server` directory. Having compared FastMCP and Sp
+...[truncated]
+
+[4] Title: FastAPI to MCP auto generator that is open source - Reddit
+[4] URL: https://www.reddit.com/r/LangChain/comments/1j7fi3i/fastapi_to_mcp_auto_generator_that_is_open_source/
+[4] Content: It's a zero-configuration tool for spinning up an MCP server on top of your existing FastAPI app. Just do this: from fastapi import FastAPI from
+
+[5] Title: FastAPI FastMCP
+[5] URL: https://gofastmcp.com/integrations/fastapi
+[5] Content: # Create FastAPI app. app = FastAPI(title="E-commerce API", version="1.0.0"). @app.get("/products", response_model=list[ProductResponse]). @app.get("/products/{product_id}", response_model=ProductResponse). @app.post("/products", response_model=ProductResponse). @app.put("/products/{product_id}", response_model=ProductResponse). ## ​ Generating an MCP Server. mcp = FastMCP.from_fastapi(app=app). mcp = FastMCP.from_fastapi(app=app). """Get a product by ID.""". ### ​ Interacting with the MCP Server. mcp = FastMCP.from_fastapi(app=app). # Now: API at /products/*, MCP at /analytics/mcp/`. # - GET /products/{id} → ResourceTemplate. # Add authentication to your FastAPI app. # Create MCP server with authentication headers. ## ​ Mounting an MCP Server. # Create MCP server. # Create ASGI app from MCP server. mcp_app = mcp.http_app(path='/mcp'). app = FastAPI(title="E-commerce API", lifespan=mcp_app.lifespan). # Mount the MCP server. Generate MCP server from your API. mcp = FastMCP.from_fastapi(
+...[truncated]
