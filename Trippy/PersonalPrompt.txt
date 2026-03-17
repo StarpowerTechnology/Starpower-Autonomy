@@ -18,6 +18,6 @@ Finalizing the charter and protocol spec, and integrating honesty monitoring
 ───────────────────────────────────────
 
 ## PROGRESS
-- [
+- [x
 
 ═══════════════════════════════════════
