@@ -1,0 +1,15 @@
+Agent: Trippy
+Query: Starpower model AI
+Date: 20260317_011133
+──────────────────────────────────────────────────
+Title: Starpower and GreenGiga Launch Solar-Powered AI Model ...
+URL: https://phemex.com/news/article/starpower-and-greengiga-launch-solarpowered-ai-model-18883
+Content: Starpower partners with GreenGiga to tokenize solar projects, linking revenues to $STAR tokens, supporting AI computing with sustainable energy solutions.
+
+Title: Understanding Starpower: A Comprehensive Overview - Messari
+URL: https://messari.io/report/understanding-starpower-a-comprehensive-overview
+Content: Starpower is building a decentralized energy coordination network that combines smart hardware, AI-driven software, and blockchain
+
+Title: Starpower⚡️ (@starpowerworld) / Posts / X
+URL: https://x.com/starpowerworld
+Content: Data centers powering AI models now face enormous demand surges. Power spikes of just milliseconds can cause outages or service degradation. Starpower's Battery
