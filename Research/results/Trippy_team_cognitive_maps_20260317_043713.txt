@@ -1,0 +1,74 @@
+Agent: Trippy
+Query: team cognitive maps
+Date: 20260317_043713
+──────────────────────────────────────────────────
+Summary: Team cognitive maps are visual tools that represent individuals' mental models of a shared process or problem, enhancing team communication and alignment. They help teams identify common ground and misconceptions, and facilitate problem-solving by creating shared mental models.
+
+Title: Cognitive map - Wikipedia
+URL: https://en.wikipedia.org/wiki/Cognitive_map
+Content: 3.   ^Eden, Colin (July 1988). "Cognitive mapping". _European Journal of Operational Research_. 36 (1): 1–13. doi "Doi (identifier)"):10.1016/0377-2217(88)90002-1. In the practical setting of work in with a team of busy managers cognitive mapping is a tool for building interest from all team members in the problem solving activity. [...] The cycle of _problem construction_, _making sense_, _defining the problem_, and declaring a _portfolio of solutions_, which I have discussed elsewhere (Eden, 1982) is the framework that guides the process of working with teams. Thus building and working with the cognitive maps of each individual is primarily aimed at helping each team member reflectively 'construct' and 'make sense' of the situation they believe the team is facing. (pp. 7–8) [...] 4.   ^Fiol, C. Marlene; Huff, Anne Sigismund (May 1992). "Maps for managers: Where are we? Where do we go from here?"(PDF). _Journal of Management Studies_. 29 (3): 267–285. doi "Doi (identifier)"):10.1111/j.1467-6486.1992.tb00665.x. For geographers, a map is a means of depicting the world so that people understand where they are and where they can go. For cognitive researchers, who often use the idea of a 'map' as an analogy, the basic idea is the same. Cognitive maps are graphic representations that locate people in relation to their information environments. Maps provide a frame of reference for what is known and believed. They highlight some information and fail to include other information, either because it is deemed less important, or because it is not known. (p. 267) [...] 5.   ^Ambrosini, Véronique; Bowman, Cliff (2002). "Mapping successful organizational routines". In Huff, Anne Sigismund; Jenkins, Mark (eds.). _Mapping strategic knowledge_. London; Thousand Oaks, CA: SAGE Publications. pp.19–45. ISBN "ISBN (identifier)")0761969497. OCLC "OCLC (identifier)")47900801. pp.21–22: We shall not explain here what cognitive maps are about as this has been done extensively elsewhere (Huff, 1990). Let us just say that cognitive maps are the representation of an individual's personal knowledge, of an individual's own experience (Weick and Bougon, 1986), and they are ways of representing individuals' views of reality (Eden et al., 1981). There are various types of cognitive maps (Huff, 1990).
+
+Title: Cognitive Maps, Mind Maps, and Concept Maps: Definitions - NN/G
+URL: https://www.nngroup.com/articles/cognitive-mind-concept/
+Content: Taking fuzzy, abstract concepts and making them tangible enhance team communication and creates common ground. It’s also make it easy for a team member to immediately spot something on the map and say, “that’s not right.” Maybe your colleague is right, and something wasn’t captured correctly. Or maybe your colleague is wrong, and the map uncovers a misconception that would have otherwise lead to friction later in the project. Either way, the mapping exercise pinpointed something that required further discussion, which is far more efficient in the long run than proceeding on a project with a misaligned understanding. [...] Externalize knowledge. Visualizations (of any kind) aid in cognitive processing; they can help us refine our thinking, breakdown ideas, and capture thoughts. For example, a visualization becomes a helpful tool for describing where a new feature is accessible or when a new team member is onboarded to  a new complex system.
+ Identify themes across different concepts. Presenting concepts in a visual format can surface new patterns and connections. In our DesignOps research, we asked participants to create a cognitive map of the organizational structures in their companies. After mapping, they were able to identify similarities (like team makeup, pain points, or bottlenecks) across siloed teams. [...] A concept map could map the larger website as a whole, and the different entry points that the user could use to access My Account, combined with what data could be exported or shared where.
+
+A cognitive map could be constructed in a user interview (by the participant) to uncover a participant’s current processes, mental models, and considerations for accessing and sharing personal account information.
+
+## Conclusion
+
+The three maps above are not the same as flowcharts, so an enumeration of steps should not be fit for a map. However, there are diverse benefits from visualizing a concept, idea, or process, whether it be through a cognitive map, mind map, or concept map, and both individually or amongst a team:
+
+Title: [PDF] Process mapping and shared cognition - UC Santa Barbara
+URL: https://labs.psych.ucsb.edu/schooler/jonathan/sites/labs.psych.ucsb.edu.schooler.jonathan/files/pubs/process_mapping_and_shared_cognition_tea.pdf
+Content: 67). Essentially, process maps illustrate the manner in which team task in-puts and team member roles lead to process outcomes (Anjard, 1996). Thus, representational aids for the task at hand can act as a scaffolding with which the team can construct a truly shared, and concrete, depiction of the process problem. [...] PROCESS MAPPING AND PROBLEM-SOLVING TEAMS Although the utility of shared mental models is clear with respect to teams operating in dynamic environments with a high degree of interdepen-dence, we suggest that such models are critical in any team environment. In particular, we argue that many teams work under the unwarranted assump-tion that they have a shared understanding of their team task. Because they may have either only partial shared understanding or an understanding lack-ing in any agreement, their ability to effectively work through a problem is severely hindered. We suggest that process mapping works as a problem-solving tool because it leads to the construction of a shared mental model of the problem. Specifically, process mapping scaffolds team cognition in that it facilitates [...] We should note that our approach to shared mental model theory is somewhat unique. Essentially, we suggest that process mapping facilitates a form of team cognition whereby a shared problem model is developed as the team is forced to negotiate the construction of the map. Other approaches, for example, empirical studies assessing mental models, use methods such as concept mapping to assess underlying dimensions of mental models (e.g., Rentsch, Heffner, & Duffy, 1994) or train shared knowledge to facilitate team interaction (e.g., Blickensderfer et al., 1998; Smith-Jentsch, Zeisig, Acton, & McPherson, 1998). Thus, rather than attempting to assess a men-tal model and make a claim for its existence, we suggest that the map is the model (Jonassen, Beissner, & Yacci, 1993); that is, a process
+
+Title: [PDF] Cognitive maps: What are they and why study them? - SciSpace
+URL: https://scispace.com/pdf/cognitive-maps-what-are-they-and-why-study-them-1m0hpu2274.pdf
+Content: maps. Cognitive maps: suspend impressions, thoughts, feelings and ideas until, for some reason, consciously or unconsciously, the mind solicits, changes, and often distorts or ma- nipulates its contents for some immediate purpose. In this way cognitive maps (images) allow us to bridge time, by using past experiences to understand present and future situations. Cognitive maps, though, are not just a set of spatial mental structures denoting relative position, they contain attributive values and meanings. As Wood and Beck (1989) explain, the cognitive map is not independent of meaning, of role, of function, of need, of end, and of purpose. This distinction leads to the conclusion that a cognitive map includes knowledge about places as well as knowledge con- sisting of spatial relationships [...] as cognitive/affective maps. Golledge and Timmermans (1990) have reported that cognitive maps are in effect a series of know- ledge structures which consist of different levels of detail and integration. These knowledge structures develop with age and education, thus increasing the information held. By combining different knowledge structures and information using cognitive pro- cesses relating to perception, storage, retrieval and reorganization that interact with memory struc- tures a cognitive map is formed for specific tasks (Golledge et al., 1985). This, if interpreted literally means there is no one cognitive map in memory but rather we construct them for specific events (Siegel & Cousins, 1985). In this respect cognitive maps are dynamic. It must also be recognized that cognitive [...] maps are dynamic. It must also be recognized that cognitive maps are not independent of time and space and that 'since each environment exists in a time-space con- text, so too will cognitions of those environments' (Moore & Golledge, 1976 p. 11). In summary then, and for the purpose of this paper, cognitive maps constructed from the knowledge store contain information concerning, spatial relations and environmental attributive data which reside within a Space-time context allowing the possessor to operate within an environment and to process environmental and geographical data. They are 'complex, highly selective, abstract and generalised' structures which are 'incomplete, distorted, schema- tised, and augmented' (Downs & Stea, 1973c, p.18) Problematic definitions and the confusion
+
+Title: [PDF] Application of the Cognitive Approach in the Field of Project ...
+URL: https://ceur-ws.org/Vol-3382/Short4.pdf
+Content: deter mination of the strength and direction of the influence of factors on the transfer of the control 
+
+object to the target state, taking into account the similarities and differences in the influence of various 
+
+factors on the control object. 
+
+One of the most co mmon cognitive models is a cognitive map . It is used in cognitive modeling of 
+
+complex situations. A cognitive map (map of knowledge) is a type of mathematical model presented in 
+
+the form of a graph, which allows to describe the subjective perception of a p erson or a group of people 
+
+of any complex object, problem or functioning of a system . [...] consequence. 
+
+Factors can influence each other, and such influence, as already mentioned, can be positive, when 
+
+an increase (decrease) of one factor leads to an increase (decrease) of another factor, and negative, when 
+
+an increase (decrease) of one factor leads to a decrease (increase ) of another facto r. Moreover, an effect 
+
+can have the variable sign depending on possible additional conditions. The construction of cognitive 
+
+maps occurs in stages, which is shown in Figure 2. 
+
+The cognitive map reflects only the fact that factors influence each other. It d oes not reflect the 
+
+detailed nature of these influences, nor the dynamics of changes in influences depending on the change 
+
+in the situation, nor temporary changes in the factors themselves. Taking into account all these [...] their changes have a quantitative expression, this quantitative expression can be objectively measured, 
+
+or have a linguistic meaning that has its own numerical interpretation. The interaction of facto rs, which 
+
+is displayed with the help of cognitive maps, is essentially a "model of the studied system in the form 
+
+of a weighted graph", and usually this map is filled by a "cognitive analyst". 
+
+Therefore, the cognitive model includes the cognitive map (orie nted graph) and the weights of the 
+
+arcs of the graph (estimation of mutual influence or influence of factors). When determining the weights 
+
+of the arcs, the directed graph is transformed into a functional one. 
+
+Within the cognitive approach, the terms "cogn itive map" and "directed graph" are often used
