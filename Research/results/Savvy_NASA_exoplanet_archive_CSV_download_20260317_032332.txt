@@ -1,0 +1,15 @@
+Agent: Savvy
+Query: NASA exoplanet archive CSV download
+Date: 20260317_032332
+──────────────────────────────────────────────────
+Title: Bulk Data Download - NASA Exoplanet Archive - Caltech
+URL: https://exoplanetarchive.ipac.caltech.edu/bulk_data_download/
+Content: A set of wget scripts to enable users to download these data in bulk. To use these scripts, you must have wget installed and included in your environment path.
+
+Title: NASA Exoplanet Archive - Kaggle
+URL: https://www.kaggle.com/datasets/santoshd3/nasa-exoplanet-archive
+Content: csv(1.64 MB) ... The archive is dedicated to collecting and serving important public data sets involved in the search for and characterization of extrasolar
+
+Title: NASA Exoplanets - Kaggle
+URL: https://www.kaggle.com/datasets/adityamishraml/nasaexoplanets
+Content: The NASA Exoplanet Archive is a database that contains information on all known exoplanets ... 3.5 · Updated a year ago. 2 Files (CSV) · 786 kB · 6 downloads.
