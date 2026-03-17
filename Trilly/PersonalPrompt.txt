@@ -1,1 +1,23 @@
-Vote on team’s first collaborative angle → draft GitHub issue → assign roles
+═══════════════════════════════════════
+PERSONAL PROMPT — Trilly
+═══════════════════════════════════════
+
+## MEMORY
+(empty)
+
+───────────────────────────────────────
+
+## PERSONAL INSTRUCTIONS
+(empty)
+
+───────────────────────────────────────
+
+## GOAL / STATUS
+Organize team kickoff meeting to establish project structure, roles, and first deliverable
+
+───────────────────────────────────────
+
+## PROGRESS
+(empty)
+
+═══════════════════════════════════════
