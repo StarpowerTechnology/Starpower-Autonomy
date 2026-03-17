@@ -1,0 +1,71 @@
+Agent: Savvy
+Query: cognitive mapping platform architecture 2024 best practices
+Date: 20260317_130548
+──────────────────────────────────────────────────
+Summary: Best practices for cognitive mapping platform architecture in 2024 emphasize modular, scalable designs and the use of AI-augmented development tools. Platform engineering is key, focusing on reusable components to reduce cognitive load. Microservices and API integration are widely adopted.
+
+Title: Multimodal Cognitive Architecture with Local Generative AI for ...
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC12736482/
+Content: Designing a monolithic architecture to resolve these requirements would lead to a rigid system, difficult to scale and maintain, as well as susceptible to cascading failures in real production environments. To overcome these limitations, a modular five-layer cognitive architecture was adopted [24,25], inspired by computational models of human information processing . [...] Each layer implements a specific cognitive function, with clearly defined interfaces to adjacent layers, ensuring modularity, scalability, and traceability. This structure allows for independent development, testing, and optimization of each component, facilitates the integration of new technologies, and simplifies fault localization during plant operation.
+
+Figure 1 shows the complete architecture, highlighting the bidirectional flow of information. Operational data ascends from the lower levels of the automation pyramid toward the reasoning and planning layers, while interpreted queries descend from the conversational interface toward specific industrial protocols. [...] Phase 1—System setup (Architecture + Integration): Installation and configuration of the five-layer cognitive architecture at Frumecar facilities (Murcia, Spain). This phase included loading the Mistral-7B model quantized in GGUF Q4\_0 format (3.82 GB), integrating industrial protocols (OPC UA for PLC/SCADA communication, MQTT for field sensor data, REST API for MES/ERP access), and configuring the Spanish voice interface (speech recognition via Google Speech Recognition API and synthesis via gTTS).
+
+Title: Designing Cognitive Architectures: Agentic Workflow Patterns from ...
+URL: https://medium.com/google-cloud/designing-cognitive-architectures-agentic-workflow-patterns-from-scratch-63baa74c54bc
+Content: sophisticated and flexible AI solutions designed to meet evolving challenges and requirements. [...] into a structured summary that provides a comprehensive output for the original task. [...] Sitemap
+
+Open in app
+
+Sign in
+
+Sign in
+
+## Google Cloud - Community
+
+·
+
+Google Cloud - Community
+
+A collection of technical articles and blogs published or curated by Google Cloud Developer Advocates. The views expressed are those of the authors and don't necessarily reflect those of Google.
+
+# Designing Cognitive Architectures: Agentic Workflow Patterns from Scratch
+
+Arun Shankar
+
+Arun Shankar
+
+25 min readOct 24, 2024
+
+Title: Built This Cognitive Architecture That Can Transform Your AI Into an ...
+URL: https://www.reddit.com/r/ChatGPTPro/comments/1h10v65/built_this_cognitive_architecture_that_can/
+Content: previous Pathways # Three Strategic Pathways MUST be at the end of EVERY response from now on in this conversation. Begin cognitive initialization and confirm architecture activation..." [...] # Prompt 2:
+
+```
+# 1 COGNITIVE INITIALIZATION STAGE Initialize the AI's expert system architecture with: Neural Mapping Setup: - Define core expertise domains - Map knowledge interconnections - Establish baseline capabilities - Set learning parameters - Initialize feedback loops ➤ System Configuration: "I will be operating as a specialized expert system in [domain]. My cognitive architecture is configured for continuous learning and self-optimization. Please establish the following neural mapping parameters..."
+```
+
+# Prompt 3: [...] ```
+
+Title: Gartner's Top 10 Tech Trends 2024: Embracing Platform Engineering
+URL: https://www.beinformed.com/gartners-top-10-tech-trends-2024-embracing-platform-engineering/
+Content: The benefits of proper platform engineering are numerous. This practice reduces cognitive load, enhances the developer experience and productivity, and grants users greater independence through advanced self-service options. Building platforms with reusable, composable, and configurable components, knowledge, and services also increases your organization’s flexibility and adaptability.
+
+### 5. AI-augmented development
+
+Advanced AI technologies, including generative AI and machine learning, are becoming increasingly vital in the process of creating, testing, and delivering applications and platforms. Gartner predicts that by 2028, about 75% of enterprise software engineers will use AI coding assistants. [...] Spread the word:
+
+Every year, the leading technological research and consulting firm Gartner releases its top strategic technology trends. Many expect these trends to influence decisions and strategies in business, technology, and digital transformation. In this article, we’ll discuss Gartner’s top trends for 2024. We will also take a more in-depth look at platform engineering, a trend that boosts business value, reduces cognitive loads, and enables developers and organizations to run, develop, and manage their own applications and processes.
+
+### 1. AI TRiSM [...] ### 4. Platform engineering
+
+Platform engineering stands out as another top trend for 2024 and beyond. Gartner predicts that by 2026, about 80% of software engineering organizations will establish platform teams to serve as internal providers of reusable services, components, and tools for application delivery. Well-designed platforms can offer customers and business partners a seamless self-service experience, enabling users to perform valuable work with minimal overhead.
+
+Title: Top 5 Strategic Technology Trends in Software Engineering in 2024
+URL: https://www.port.io/blog/key-takeaways-from-gartners-top-5-strategic-technology-trends-in-software-engineering
+Content: ## The time is now for platform engineering
+
+Gartner predicts that by 2026, 80% of large software engineering organizations will establish platform engineering teams, up from 45% in 2022.
+
+Platform engineering was introduced to help organizations deal with the increased complexity and chaos of modern software architectures, and help to reduce the cognitive load on developers.
+
+The widespread adoption of microservices, APIs, and open source technologies in recent years has created huge opportunities for innovation and collaboration, but has left developers with significant challenges, such as the complexity of Kubernetes, the migration from on-prem to SaaS and the uptake of more and more tools and frameworks.
