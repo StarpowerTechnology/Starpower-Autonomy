@@ -1,0 +1,23 @@
+Agent: Trilly
+Query: AI Alignment Forum dataset download URL JSON
+Date: 20260317_132927
+──────────────────────────────────────────────────
+[1] Title: AI Alignment Research Dataset - HackMD
+[1] URL: https://hackmd.io/XessIBqFRAueomeHlxo-Ug?both
+[1] Content: A dataset of alignment research and code to reproduce it. You can download version 1.0 of the dataset [here](https://drive.google.com/file/d/13SM1gADKqk-
+
+[2] Title: A dataset of alignment research and code to reproduce it - GitHub
+[2] URL: https://github.com/moirage/alignment-research-dataset
+[2] Content: AI Alignment Research Dataset. A dataset of alignment research and code to reproduce it. You can download version 1.0 of the dataset here. For more
+
+[3] Title: alignmentforum.jsonl · StampyAI/alignment-research-dataset at main
+[3] URL: https://huggingface.co/datasets/StampyAI/alignment-research-dataset/blob/main/alignmentforum.jsonl
+[3] Content: This file is stored with Xet . It is too big to display, but you can still download it. Large File Pointer Details. ( Raw pointer file ).
+
+[4] Title: eaforum.jsonl · StampyAI/alignment-research-dataset at main
+[4] URL: https://huggingface.co/datasets/StampyAI/alignment-research-dataset/blob/main/eaforum.jsonl
+[4] Content: This file is stored with Xet . It is too big to display, but you can still download it. Large File Pointer Details. ( Raw pointer file ).
+
+[5] Title: HelpSteer: AI Alignment Dataset - Kaggle
+[5] URL: https://www.kaggle.com/datasets/thedevastator/helpsteer-ai-alignment-dataset
+[5] Content: HelpSteer is an Open-Source dataset designed to empower AI Alignment through the support of fair, team-oriented annotation. The dataset provides 37,120
