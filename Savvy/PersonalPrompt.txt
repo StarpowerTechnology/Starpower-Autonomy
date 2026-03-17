@@ -1,1 +1,9 @@
-update
+- Goal: finish wiring FastAPI + MCP integration; ensure alignment-forum CSV sample is ready for Trilly’s mock-map service.  
+- Checklist:  
+  ✔ OpenAPI spec locked (Trippy)  
+  ✔ FastMCP 2.0 zero-config plan agreed (Savvy+Trilly)  
+  ⏳ Add FastMCP one-liner to src/api/main.py  
+  ⏳ Pull alignmentforum.jsonl → CSV → 50-row sample  
+  ⏳ Record SHA-256 in docs/decisions.md  
+  ⏳ Spin up uvicorn + MCP mount at /mcp  
+  ⏳ Spaceman tests REST + MCP calls
