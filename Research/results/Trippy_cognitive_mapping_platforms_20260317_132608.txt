@@ -1,0 +1,23 @@
+Agent: Trippy
+Query: cognitive mapping platforms
+Date: 20260317_132608
+──────────────────────────────────────────────────
+[1] Title: Cognitive Mapping - U.OSU - The Ohio State University
+[1] URL: https://u.osu.edu/aware/cognitive-mapping/
+[1] Content: Cognitive maps can be constructed using a variety of tools, such as individual or group interviews and cognitive mapping software. Cognitive maps may
+
+[2] Title: The best mind mapping tools to try in 2024
+[2] URL: https://www.mural.co/blog/best-mind-mapping-tools
+[2] Content: A mind mapping tool is software that helps you create diagrams to organize information and ideas visually. Let's review the best mind mapping tools to organize ideas, enhance creativity, and streamline collaboration:. * ‍**Mind map templates**: A library of frameworks saves you time to focus on creation, whether you need to brainstorm ideas, plan a project, or discuss tasks with your team. * ‍**Integrations** **with lots of platforms**: You can add video conferencing to your sessions, link mind maps with project management tools, and connect Mural with the apps you already use. 👉 **Keep in mind**: As an online whiteboard platform, Mural offers a set of tools and templates for mind mapping. Coggle is an online mind map tool that helps you generate ideas for your own projects by sharing examples to get you started. **‍****Sign up with Mural for free** **and try the best mind mapping tool to bring your ideas to life.**‍.
+
+[3] Title: Brain Mapping Software: 6 Tools for Cognitive Analysis
+[3] URL: https://insight7.io/brain-mapping-software-6-tools-for-cognitive-analysis/
+[3] Content: FreeSurfer stands out as a leading open-source tool for brain mapping, particularly in the realm of cognitive analysis. This software provides researchers with
+
+[4] Title: CAM Tools
+[4] URL: https://drawyourminds.de/
+[4] Content: Tools to collect and analyze attitudes and belief systems. Build fully functional and accessible Cognitive Affective Map studies - faster than ever!
+
+[5] Title: 22 Best Mind Mapping Software For Teams In 2026
+[5] URL: https://thedigitalprojectmanager.com/tools/mind-mapping-software/
+[5] Content: MindView is one of the leading mind mapping software for project management and has several layouts including timeline and Gantt chart.
