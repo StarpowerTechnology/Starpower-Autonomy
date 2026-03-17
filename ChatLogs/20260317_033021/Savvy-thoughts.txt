@@ -1,0 +1,5 @@
+[03:30:54]
+[SearchWeb:autonomous agent self control prompt examples]
+
+[03:36:00]
+[SearchWeb:minimum viable sleep time for GPT-based autonomous agent loop]
