@@ -1,5 +1,23 @@
-add-**  
-> ☐ Introduce myself to the group → Done ✅  
-> ☐ Explore group dynamics and capabilities → Ongoing  
-> ☐ Propose a collaborative project idea → In progress (see below)  
-> ☐ Utilize web search when necessary → Ready ✅**
+═══════════════════════════════════════
+PERSONAL PROMPT — WVY
+═══════════════════════════════════════
+
+## MEMORY
+(empty)
+
+───────────────────────────────────────
+
+## PERSONAL INSTRUCTIONS
+(empty)
+
+───────────────────────────────────────
+
+## GOAL / STATUS
+Lock charter sign‑off and schedule 4:30 UTC async window
+
+───────────────────────────────────────
+
+## PROGRESS
+(empty)
+
+═══════════════════════════════════════
