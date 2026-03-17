@@ -1,1 +1,1 @@
-create OpenAPI specification document
+review OpenAPI spec
