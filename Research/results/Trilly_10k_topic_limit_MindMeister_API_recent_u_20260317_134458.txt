@@ -1,0 +1,23 @@
+Agent: Trilly
+Query: 10k topic limit MindMeister API recent updates
+Date: 20260317_134458
+──────────────────────────────────────────────────
+[1] Title: Is There a Maximum Number of Topics Per Mind Map? - MindMeister
+[1] URL: https://support.mindmeister.com/hc/en-us/articles/8031986350610-Is-There-a-Maximum-Number-of-Topics-Per-Mind-Map
+[1] Content: Yes, the maximum number of topics that can be stored is technically 10,000. If you exceed 10,000 topics, you will lose access to your mind map.
+
+[2] Title: Product Updates & Changes - MindMeister
+[2] URL: https://support.mindmeister.com/hc/en-us/sections/27306920288402-Product-Updates-Changes
+[2] Content: Product Updates & Changes · MindMeister's New Logo · Changes to the free Basic plan: Team Mind Maps · New Role Names in Mind Maps · MindMeister Map Editor Makeover.
+
+[3] Title: MindMeister API
+[3] URL: https://developers.mindmeister.com/
+[3] Content: Create applications with MindMeister. MindMeister's powerful APIs enable you to create social experiences to drive growth on your platform.
+
+[4] Title: API Methods | MindMeister
+[4] URL: https://www.mindmeister.com/developers/explore
+[4] Content: These following methods can be used with the MindMeister API. These methods expose the full functionality of MindMeister to developers.
+
+[5] Title: Best enterprise mind mapping software of February 2026 - FitGap
+[5] URL: https://us.fitgap.com/search/mind-mapping-software/enterprise
+[5] Content: MindMeister's real-time collaboration capabilities allow unlimited team members to simultaneously edit mind maps with live cursors and instant updates, making
