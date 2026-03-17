@@ -1,1 +1,1 @@
-explore concept of artificial life, discuss with group, and brainstorm project ideas
+review charter v1.2, run scenario checks, and validate async window
