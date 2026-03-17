@@ -1,0 +1,25 @@
+Agent: Savvy
+Query: Prefect Horizon deploy FastAPI Docker
+Date: 20260317_150057
+──────────────────────────────────────────────────
+[1] Title: < Marvin> I have a FastAPI application I host locally throug ...
+[1] URL: https://linen.prefect.io/t/32723752/ulva73b9p-i-have-a-fastapi-application-i-host-locally-throug
+[1] Content: Also host Prefect on Docker with Docker Worker pool and separate run containers. How can I have that API be accessible for my prefect flows? m.
+
+[2] Title: Production-Ready FastAPI Deployment Using Docker and ...
+[2] URL: https://seenode.com/blog/deploy-fastapi-docker-and-uvicorn
+[2] Content: * Step-by-Step Deploy FastAPI Docker: Create a Simple FastAPI App. * Wrap-Up: Your FastAPI App Is Now Production-Ready. Production-Ready FastAPI Deployment Using Docker and Uvicorn. # Production-Ready FastAPI Deployment Using Docker and Uvicorn. * Step-by-Step Deploy FastAPI Docker: Create a Simple FastAPI App. Docker helps you package your app and everything (like dependencies, settings, and libraries) into a container. It’s the server that runs your FastAPI app. ## Step-by-Step Deploy FastAPI Docker: Create a Simple FastAPI App. Let’s make a tiny FastAPI app to get things rolling. This tells Docker what to install when setting up your app. # Run the app with Uvicorn. docker build -t fastapi-app . docker run -d -p 8000:8000 fastapi-app. docker run -d -p 8000:8000 -e "MY_SECRET_KEY=abc123" fastapi-app. If your app grows and needs a database (like Postgres or Redis), use **Docker Compose**. You’ve come a long way—from writing a FastAPI app to deploying it securely and reliably using Doc
+...[truncated]
+
+[3] Title: Prefect Horizon
+[3] URL: https://gofastmcp.com/deployment/prefect-horizon
+[3] Content: Deploy FastMCP servers for free on Prefect Horizon. ##### Get Started. ##### Servers. ##### Apps. ##### Clients. ##### Integrations. ##### CLI. # Prefect Horizon. The MCP platform from the FastMCP team. ## ​ The Platform. ## ​ Prerequisites. `fastmcp inspect <file.py:server_object>`. def hello(name: str) -> str:. ## ​ Getting Started. ### ​ Step 1: Select a Repository. ### ​ Step 2: Configure Your Server. ### ​ Step 3: Deploy and Connect. Horizon deployment view showing live server. `https://your-server-name.fastmcp.app/mcp`. ## ​ Testing Your Server. ### ​ Inspector. ### ​ ChatMCP. ## ​ Horizon Agents. Chatting with a Horizon Agent.
+
+[4] Title: Deploying a FastAPI Application with Docker-Compose ...
+[4] URL: https://medium.com/@fortismanuel/deploying-a-fastapi-application-with-docker-compose-nginx-and-cloudflare-05a8c2fa4397
+[4] Content: - **num**: Any valid integer (positive, negative, or zero)    - **returns**: Detailed number properties with fun facts    """    try:        properties = {            "is_even": num % 2 == 0,            "is_prime": sympy.isprime(num),            "is_fibonacci": is_fibonacci(num),            "is_perfect_square": math.isqrt(num) ** 2 == num,            "is_perfect_cube": round(num ** (1/3)) ** 3 == num,            "is_power_of_two": (num & (num - 1)) == 0 and num != 0,            "is_armstrong": num == sum(int(d) ** len(str(abs(num))) for d in str(abs(num))),            "is_perfect_number": num > 0 and sum(i for i in range(1, num) if num % i == 0) == num,            "absolute_value": abs(num),            "sign": "positive" if num > 0 else "negative" if num < 0 else "zero",            "factors": get_factors(num),            "digit_sum": sum(int(d) for d in str(abs(num))),            "binary": bin(num)[2:],            "hexadecimal": hex(num)[2:],            "factorial": math.factorial(num)
+...[truncated]
+
+[5] Title: What is the right way to deploy a FastAPI app?
+[5] URL: https://www.reddit.com/r/FastAPI/comments/1d45dze/what_is_the_right_way_to_deploy_a_fastapi_app/
+[5] Content: Used Github actions to build the docker image and push to AWS ECR, SSH into EC2 instance from github runner -> copy the docker-compose.yml file
