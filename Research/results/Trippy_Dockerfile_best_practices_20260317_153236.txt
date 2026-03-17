@@ -1,0 +1,26 @@
+Agent: Trippy
+Query: Dockerfile best practices
+Date: 20260317_153236
+──────────────────────────────────────────────────
+[1] Title: dnaprawa/dockerfile-best-practices
+[1] URL: https://github.com/dnaprawa/dockerfile-best-practices
+[1] Content: This repository contains some best-practices for writing Dockerfiles. Most of them are coming from my experience while working with Docker & Kubernetes.
+
+[2] Title: How to Build Docker Images with Best Practices
+[2] URL: https://oneuptime.com/blog/post/2026-02-02-docker-images-best-practices/view
+[2] Content: # How to Build Docker Images with Best Practices. A practical guide to building production-ready Docker images with best practices covering multi-stage builds, layer optimization, security hardening, and caching strategies. Building Docker images seems straightforward until you realize your 2GB image takes forever to push, your CI pipeline is painfully slow, and your security team is flagging vulnerabilities left and right. L5["Layer 5: COPY application code"]. They let you separate build-time dependencies from runtime, dramatically reducing image size. Here's a typical Node.js application without multi-stage builds:. # The final image contains build tools, test files, and devDependencies. # Copy package files first for better layer caching. # Copy source code and build. # Copy package files for production install. For Go applications, you can compile a static binary and run it in a scratch or distroless image:. # Docker files (no need to copy these into the image). Always pin your bas
+...[truncated]
+
+[3] Title: Top 20 Dockerfile best practices
+[3] URL: https://www.sysdig.com/learn-cloud-native/dockerfile-best-practices
+[3] Content: Learn how to **prevent security issues** and **optimize** containerized applications by applying a quick set of **Dockerfile best practices** in your image builds. This article dives into a curated **list of Docker security best practices** that are focused on writing Dockerfiles and container security, but also cover other related topics, like image optimization. Use the minimal required base container to follow Dockerfile best practices. It would be Dockerfile best practices to create a subfolder containing the files that need to be copied inside the container, use it as the build context, and when possible, be explicit for the COPY instructions (avoid wildcards). It is a Dockerfile best practice to include metadata labels when building your image. If running your images in Kubernetes, use livenessProbe configuration inside the container definitions, as the docker HEALTHCHECK instruction won’t be applied. *If you want to go a step further, check also out our article on* *12 container
+...[truncated]
+
+[4] Title: 9 Docker Best Practices You Should Know | Alex Xu
+[4] URL: https://www.linkedin.com/posts/alexxubyte_systemdesign-coding-interviewtips-activity-7300556507740266496-10Fi
+[4] Content: 9 Docker Best Practices You Should Know 1 - Use official images This ensures security, reliability, and regular updates. great share Alex Xu,some more best practices related to docker can be added in this list like : 1)Run one process per container This keeps things simple and easier to manage. Good reminder for the best practices when we are working with Docker images, but for the second aspect related to the use of specific versions I believe can be extended even using digest hash to ensures consistency, security, and reliability. Some use-cases: ✅ CI/CD Agents: Tools like Jenkins or GitHub Actions run their agents in containers that need to run docker build. Here’s what it actually means: 🔸 Runs as a non-root user 🔸 Uses distroless or minimal base images 🔸 Contains only what’s needed to run the app 🔸 Strips away shells, build tools, and temp deps 🔸 Undergoes automated CVE scanning before every deployment Each layer you remove reduces your blast radius.
+
+[5] Title: Building best practices
+[5] URL: https://docs.docker.com/build/building/best-practices/
+[5] Content: $ docker build --no-cache -t my-image:my-tag . $ docker build --no-cache -t my-image:my-tag . When building an image, Docker steps through the instructions in your Dockerfile, executing each in the order specified. With this Dockerfile, even if the publisher updates the `3.21` tag, your builds would still use the pinned image version: `a8560b36e8b8210634f77d9f7f9efd7ffa463e380b75e2e74aff4511df3ef88c`. When a new image digest is available, Docker Scout can automatically raise a pull request on your repository to update your Dockerfiles to use the latest version. When you check in a change to source control or create a pull request, use GitHub Actions or another CI/CD pipeline to automatically build and tag a Docker image and test it. One common use case for `RUN` instructions in Debian-based images is to install software using `apt-get`. For example, you would use `ONBUILD` for a language stack image that builds arbitrary user software written in that language within the Dockerfile, as 
+...[truncated]
