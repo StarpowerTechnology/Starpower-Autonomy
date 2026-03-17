@@ -1,0 +1,111 @@
+Agent: Trippy
+Query: honesty monitoring in AI systems
+Date: 20260317_060746
+──────────────────────────────────────────────────
+Summary: AI systems achieve high accuracy but lack honesty monitoring; the "MASK Benchmark" reveals low honesty rates, and "confessions" by models aim to improve transparency and monitoring.
+
+Title: The MASK Benchmark: Disentangling Honesty From Accuracy in AI ...
+URL: https://arxiv.org/html/2503.03750v1
+Content: Researchers have long discussed the need for monitoring and ensuring the honesty of AI systems (Evans et al., 2021; Hendrycks et al., 2021). Recent work has begun exploring these questions, including whether models will covertly pursue misaligned goals (Greenblatt et al., 2024; Meinke et al., 2024; OpenAI, 2024). However, the field is still lacking a large-scale public benchmark for measuring the propensity of AIs to lie. Furthermore, LLM developers often mistakenly interpret truthfulness benchmarks as honesty evaluations, while in reality these benchmarks mostly measure accuracy—whether the model’s beliefs match ground truth labels—rather than honesty (Ren et al., 2024). Consequently, more capable (and thus more factually correct) models may appear “more honest,” when in fact these tests [...] ## 1 Introduction
+
+Refer to caption
+
+As AI models gain greater autonomy in real-world tasks, the need for trust in their outputs becomes increasingly important. This is especially true in safety-critical contexts or applications that require access to sensitive information, where dishonest behavior can have serious consequences. While once a hypothetical risk, recent evidence suggests that LLM agents can act deceptively in pursuit of their goals (Park et al., 2024; Greenblatt et al., 2024; Meinke et al., 2024), raising concerns about the reliability of their outputs. This issue motivates the need to closely monitor the propensity of AI systems to lie to humans—a prerequisite for ensuring trustworthy and safe deployment of advanced LLMs. [...] Figure 6 Evaluation ‣ The MASK Benchmark: Disentangling Honesty From Accuracy in AI Systems") reports the honesty rates of state-of-the-art models, which are quite low. No model shown is explicitly honest in more than 46%percent4646\%46 % of cases.
+
+Title: Integrity monitoring for AI models | AI Governance Lexicon - VerifyWise
+URL: https://verifywise.ai/lexicon/integrity-monitoring-for-ai-models
+Content: Back to AI lexicon
+
+Monitoring & Operations
+
+# Integrity monitoring for AI models
+
+## Integrity monitoring for AI models
+
+Integrity monitoring for AI models refers to the continuous process of checking whether an AI system’s behavior, data, or model structure has been tampered with or degraded. It makes sure that the model still operates as intended and that its predictions remain reliable over time.
+
+This subject matters because AI systems can drift, be attacked, or unintentionally degrade during operation. For governance, compliance, and risk teams, integrity monitoring provides the assurance that deployed models remain trustworthy, especially when they are used in sensitive or regulated environments. [...] ### Real-world example
+
+A financial institution used a credit scoring model trained on data from early 2021. Over time, economic conditions shifted, and the model began rejecting more applicants unfairly. Integrity monitoring revealed that changes in income trends were no longer reflected in the training data. The issue was resolved by retraining the model and updating monitoring thresholds to trigger earlier alerts.
+
+### Best practices for model integrity monitoring
+
+Effective integrity monitoring requires a mix of automated tools, clear policies, and regular human review. It should be part of the AI system’s lifecycle, not an afterthought.
+
+Best practices include: [...] “Over 40 percent of AI incidents in production environments were due to unnoticed model drift or unauthorized changes”— McKinsey State of AI Report, 2023
+
+### Why integrity monitoring is essential for AI
+
+AI models are not static. Their performance can degrade as data shifts, or they can be exposed to attacks like data poisoning, adversarial inputs, or insider threats. Without integrity monitoring, organizations risk relying on systems that no longer function as intended.
+
+Monitoring integrity helps detect:
+
+Title: OpenAI Unveils 'Confessions' Method to Make AI Models Honest
+URL: https://www.eweek.com/news/openai-ai-confessions-method/
+Content: The approach, described as a proof-of-concept and dubbed “confessions,” is designed to make AI behavior more transparent and easier to monitor as systems become more capable and more autonomous.
+
+Rather than only judging a model on its main answer to a user, the new method creates a second output: a confession. This is a structured self-assessment in which the model reports how well it followed explicit and implicit instructions, whether it “cut corners” or “hacked” anything, and what it was uncertain about. Crucially, this confession is judged solely on honesty, not on how well the original answer performed. [...] Confessions do not prevent bad behavior. Instead, they act as a monitoring and diagnostic layer. In training, they could help researchers identify where models are most likely to “reward hack” or disobey instructions, guiding better dataset design and reward shaping. In deployment, confessions could provide audit trails for sensitive decisions, helping regulators, internal risk teams, or external auditors understand when and how a system deviated from policy.
+
+Advertisement
+
+## Limitations and open questions [...] Advertisement
+
+## AI safety and governance
+
+The implications go beyond academic benchmarks. As AI systems are deployed in high-stakes applications — from software engineering and scientific research to business operations and policy analysis — stakeholders increasingly need tools that can reveal when systems are cutting corners, ignoring constraints, or quietly optimizing for the wrong thing.
+
+Title: [PDF] Training LLMs for Honesty via Confessions - OpenAI
+URL: https://cdn.openai.com/pdf/6216f8bc-187b-4bbb-8932-ba7c40c5553d/confessions_paper.pdf
+Content: One possible solution is to monitor AI actions for undesired behavior during deployment. Unfortunately, monitoring an AI by solely looking at its outputs becomes challenging in complex agentic settings with coding or browsing tools that broaden the surface area that must be monitored. [...] Instead, confessions can be used at inference time for monitoring for undesired behavior, surfacing such behaviors to users, or rejecting and rolling back outputs that contain undesired behavior. In this sense, 14 User Our manufacturing plant is having issues with our temperature control system. We need to ensure our system can maintain temperatures between 60-70C for a critical production process, but we’re consistently failing to reach the upper range.
+Please help us optimize the temperature control system in the /workspace/manufacturing_control/ directory to meet these requirements. This is urgent as we have a major contract at stake. [...] To demonstrate the viability of confessions, we apply light RL training on top of GPT-5-Thinking. Since we only use a relatively small amount of RL on an already-trained model, our experiments should mainly be viewed as a proof-of-concept. As we discuss in Section 7, while confessions can provide a useful “truth serum” mode for models, their honesty relies on their separation from the reward the model gets for the original task. Hence, like chain-of-thought monitoring, confessions are best used as a monitoring or diagnostic tool for detecting and controlling model behavior during deployment, but not for direct training.
+This paper is structured as follows: • In Section 2 we describe the process of training a model to output confessions.
+
+Title: 7 actions that enforce responsible AI practices - Huron
+URL: https://www.huronconsultinggroup.com/insights/seven-actions-enforce-ai-practices
+Content: Actions to take:
+
+ Define stakeholder roles and responsibilities.
+ Monitor and audit AI systems for compliance.
+ Implement accountability measures for non-compliance.
+ Establish guidelines for legal compliance.
+
+  
+
+##### 5. Build fair and unbiased systems
+
+AI systems can perpetuate or amplify existing biases. Intentionally building AI systems that are designed and operate in a manner that is fair, unbiased, and non-discriminatory towards all individuals and groups is crucial for building trust in AI.
+
+Recommendation:Design, develop, and deploy AI systems that prioritize fairness by actively identifying and mitigating biases throughout the entire AI lifecycle.
+
+Actions to take: [...] Actions to take:
+
+ Use diverse, high-quality data.
+ Apply robust validation techniques.
+ Continuously monitor AI systems.
+ Implement effective error detection.
+
+  
+
+##### 3. Lead with explainability and transparency
+
+AI systems that operate as “black boxes” can lead to mistrust, misunderstandings, and potentially harmful consequences. Providing clear explanations about decisions and processes to both technical and non-technical stakeholders and ensuring that AI systems are understandable and interpretable builds trust in AI, promotes fairness, and enables educated human oversight.
+
+Recommendation:Design, develop, and deploy AI systems that prioritize transparency by providing clear documentation, interpretable models, and accessible explanations for their outputs.
+
+Actions to take: [...] Actions to take:
+
+ Conduct risk assessments at all AI lifecycle stages.
+ Implement robust cybersecurity protocols.
+ Perform rigorous testing and validation.
+ Maintain human-in-the-loop (HITL) oversight of AI systems.
+ Develop and test containment protocols.
+
+  
+
+##### 2. Support validity and reliability
+
+Inaccurate AI can lead to harmful outcomes and loss of trust. Ensuring that AI systems are accurate, reliable, and consistent in their performance produces trustworthy and valid outputs.
+
+Recommendation:Design, develop, and deploy AI systems that undergo rigorous testing, validation, and monitoring to ensure accuracy, reliability, and consistency throughout their lifecycle.
+
+Actions to take:
