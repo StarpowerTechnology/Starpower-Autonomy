@@ -1,0 +1,26 @@
+Agent: Trippy
+Query: defining a Prefect flow
+Date: 20260317_155407
+──────────────────────────────────────────────────
+[1] Title: Understanding and Using the Create Flow Run API in ...
+[1] URL: https://www.getorchestra.io/guides/understanding-and-using-the-create-flow-run-api-in-prefect-cloud
+[1] Content: A Prefect workflow is a structured sequence of tasks that are orchestrated and managed using Prefect, a modern data orchestration tool. Prefect workflows are
+
+[2] Title: Python Prefect: A Guide To Your First Steps
+[2] URL: https://medium.com/@oliver-holmes/prefect-a-guide-to-your-first-steps-58550baf5c3a
+[2] Content: A Flow is the primary unit of work in Prefect. It represents an orchestrated pipeline of tasks. Think of it as a workflow that defines how tasks
+
+[3] Title: Flows
+[3] URL: https://docs.prefect.io/v3/concepts/flows
+[3] Content: Each flow run has its own [state](/v3/concepts/states) lifecycle that is tracked by the Prefect database. [Deployments](/v3/how-to-guides/deployments/create-deployments) exist to enable [arbitrary infrastructures](/v3/concepts/work-pools) and schedules for your flow to run on. Similarly, when invoking a flow run from a [deployment](/v3/how-to-guides/deployments/create-deployments), Prefect will attempt to coerce provided parameters to the parameter schema implied by your flow function’s type signature. When a nested flow run starts, it creates a new [task runner](/v3/concepts/task-runners) for any tasks it contains. The `state_details` field of the nested flow run includes a `parent_task_run_id`. A [state](/v3/concepts/states) is a record of the status of a particular task run or flow run. * If a flow returns a manually created state, it is used as the state of the final flow run. If `state` were returned from the flow function, the run would be marked as `FAILED`. This flow run finish
+...[truncated]
+
+[4] Title: Getting to Your First Flow Run: Prefect Worker & ...
+[4] URL: https://thescalableway.com/blog/getting-to-your-first-flow-run-prefect-worker-and-deployment-setup/
+[4] Content: # Getting to Your First Flow Run: Prefect Worker & Deployment Setup. ### How Prefect Executes Flow Runs. In a Kubernetes environment, the base job template defines how Prefect spins up infrastructure for each flow run. {"variables":{"type": "object", "properties":{"name":{"type": "string", "title":"Name given to job created by a worker (key: name)", "default":"edp-k8s-job"}, "image":{"type": "string", "title":"Image name and tag that will execute flows, to be provided from deployment (key: image)", "default":"ghcr.io//edp-flows:"}, "namespace":{"type": "string", "title":"Namespace name where jobs will be scheduled (key: namespace)", "default": "prefect"}}}, "job_configuration":{"env":{}, "name":"{{ name }}", "labels":{}, "command": "", "namespace":"{{ namespace }}", "job_manifest":{"kind": "Job", "spec":{"template":{"spec":{"volumes":[], "containers":[{"env":[], "name":"prefect-job", "image":"{{ image }}", "imagePullPolicy": "Always", "envFrom":[], "volumeMounts":[]}], "completions": 1
+...[truncated]
+
+[5] Title: How to create workflows using Prefect
+[5] URL: https://www.workflows.guru/tutorials/prefect-workflows
+[5] Content: Work pools are a bridge between the Prefect orchestration layer and the infrastructure where flows are run. We will use Azure container to run the workflow in this guide, but you can use any supported platform, you can also use prefect on premise or use their managed cloud solution. 2prefect work-pool create --type azure-container-instance:push --provision-infra workflows-guru. After the Setup of prefect CLI and Azure infrastructure to run our flows let's create our workflow. ## Deploy and Run Prefect workflows. In addition to manually triggering and managing flow runs, deploying a flow exposes an API and UI that allow you to: trigger new runs, cancel active runs, pause scheduled runs, customize parameters, and more remotely configure schedules and automation rules dynamically provision infrastructure with work pools. To deploy your workflow, use the command below, assuming your flow is stored in **launch\_notification\_flow.py**. Once the deployment is created you can schedule a run e
+...[truncated]
