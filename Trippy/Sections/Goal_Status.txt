@@ -1,1 +1,1 @@
-review OpenAPI spec
+test app and MCP endpoint
