@@ -1,0 +1,25 @@
+Agent: Trippy
+Query: testing FastAPI app
+Date: 20260317_150029
+──────────────────────────────────────────────────
+[1] Title: How to test a FastAPI Project - A Practical Guide - App Generator
+[1] URL: https://app-generator.dev/docs/technologies/fastapi/testing.html
+[1] Content: # Testing FastAPI. # Testing FastAPI#. The document provides an in-depth overview of testing FastAPI applications, including handling asynchronous endpoints, dependency overrides, background tasks, and mocking external services. Below is a simple project structure for testing a FastAPI application:. Using FastAPI’s TestClient and pytest, create a test\_main.py file for tests. ## Testing Asynchronous Endpoints#. For asynchronous endpoints, pytest-asyncio and httpx allow you to run async tests. ## Testing with Dependency Overrides#. Note: This following test will fail because There is No module named ‘main.external\_service’, its just to show how we can mock external service, like ‘stripe api, smtp or etc.’. ## How to Run Your Tests#. Upon running tests with pytest, you should see output similar to:. Testing FastAPI applications involves various techniques, from simple endpoint testing to handling asynchronous code, dependencies, and mocking external APIs. By using pytest, httpx, and Fas
+...[truncated]
+
+[2] Title: Testing FastAPI Application - GeeksforGeeks
+[2] URL: https://www.geeksforgeeks.org/python/testing-fastapi-application/
+[2] Content: FastAPI applications need to be tested to ensure their endpoints return correct responses and behave as expected. In Python, FastAPI APIs
+
+[3] Title: Test a FastAPI app | Databricks Apps Cookbook
+[3] URL: https://apps-cookbook.dev/docs/fastapi/getting_started/test/
+[3] Content: This recipe demonstrates how to test FastAPI applications using Pytest. Testing is crucial in API development to ensure reliability, maintainability, and
+
+[4] Title: Testing FastAPI Application with Pytest | by Fedor GNETKOV - Medium
+[4] URL: https://medium.com/@gnetkov/testing-fastapi-application-with-pytest-57080960fd62
+[4] Content: Today we will look at testing a FastAPI application using Pytest, set up the tests, and go over some good practices. What exactly will we cover?
+
+[5] Title: Testing - FastAPI
+[5] URL: https://fastapi.tiangolo.com/tutorial/testing/
+[5] Content: get("/items/{item_id} ", response_model = Item)async def read_main(item_id: str, x_token: Annotated[str, Header()]): async def  read_main(item_id: str, x_token: Annotated[str, Header()]): if x_token != fake_secret_token: if x_token!= fake_secret_token: raise HTTPException(status_code=400, detail="Invalid X-Token header") raise HTTPException(status_code = 400, detail ="Invalid X-Token header") if item_id not in fake_db: if item_id not in fake_db: raise HTTPException(status_code=404, detail="Item not found") raise HTTPException(status_code = 404, detail = "Item not found") return fake_db[item_id] return fake_db[item_id]   @app.post("/items/") @app. from fastapi.testclient import TestClient from  fastapi.testclient  import TestClient  from .main import app from  .main  import app  client = TestClient(app) client = TestClient(app)   def test_read_item(): def  test_read_item(): response = client.get("/items/foo", headers={"X-Token": "coneofsilence"}) response = client. from fastapi.testclie
+...[truncated]
