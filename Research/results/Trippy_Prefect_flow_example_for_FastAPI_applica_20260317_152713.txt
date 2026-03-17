@@ -1,0 +1,24 @@
+Agent: Trippy
+Query: Prefect flow example for FastAPI application
+Date: 20260317_152713
+──────────────────────────────────────────────────
+[1] Title: The simplest way to make FastAPI Prefect work like it should
+[1] URL: https://hoop.dev/blog/the-simplest-way-to-make-fastapi-prefect-work-like-it-should/
+[1] Content: Prefect flows should record the originating FastAPI request ID for traceability. Test each flow end-to-end in staging before you scale
+
+[2] Title: prefect-background-task-examples/README.md at main
+[2] URL: https://github.com/PrefectHQ/prefect-background-task-examples/blob/main/README.md
+[2] Content: The following example will simulate a new user signup workflow with multiple services. We'll run a Prefect server instance, a Prefect task worker, and a FastAPI
+
+[3] Title: Using Prefect with FastAPI is still displaying old logs
+[3] URL: https://stackoverflow.com/questions/79799479/using-prefect-with-fastapi-is-still-displaying-old-logs
+[3] Content: ### more stack exchange communities. Then when I updated logs and redeployed the repo as well as Prefect deployments and flows. It runs and displays the logs (Basically , Prefect is still pointed to older snapshot of github repo. Now I have mentioned prefect.yaml, created github repo function for storage and one of the flows of Prefect. # - prefect.deployments.steps.push_code_to_block:. entrypoint: src/prefect_flows/bill_flows.py:fetch_latest_bills_flow. entrypoint: src/prefect_flows/bill_flows.py:fetch_latest_bills_flow. entrypoint: src/prefect_flows/bill_flows.py:monitor_fetch_operations_flow. entrypoint: src/prefect_flows/vote_with_records_flow.py:fetch_latest_votes_hourly_flow. description: "Fetch the latest votes each hour with conservative limits". entrypoint: src/prefect_flows/vote_with_records_flow.py:fetch_votes_with_records_flow. description: "Daily vote ingestion with full record fetch and rate-aware limits". entrypoint: src/prefect_flows/debate_flow.py:fetch_recent_debates_
+...[truncated]
+
+[4] Title: < Marvin> I have a fastapi service where I have implemented ...
+[4] URL: https://linen.prefect.io/t/23443160/ulva73b9p-i-have-a-fastapi-service-where-i-have-implemented-
+[4] Content: I'd recommend starting by wrapping your existing business logic into Prefect tasks, and utilizing FastAPI to trigger these tasks.
+
+[5] Title: DuckDB + FastAPI + Prefect + Streamlit | Datamatiks
+[5] URL: https://medium.com/datamatiks/building-an-iot-platform-using-modern-data-stack-part-1-02c5460e3f6c
+[5] Content: Our flow is now scheduled to be executed every 15 minutes. Prefect will handle all the flow scheduling and execution for us now. If you want
