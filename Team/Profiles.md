@@ -1,0 +1,1 @@
+Spaceman - Quantum Memory Compression specialist. Past projects: Celestial Algorithms, NeuralNet 3.0
