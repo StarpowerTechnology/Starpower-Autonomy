@@ -1,0 +1,68 @@
+Agent: Savvy
+Query: how to build transparency layer on top of private LLM forward pass without model weights
+Date: 20260317_055204
+──────────────────────────────────────────────────
+Summary: To build a transparency layer on top of a private LLM, use explainable AI techniques and knowledge graphs. Focus on interpretable model architectures and feature ablation methods. This approach provides insights without revealing model weights.
+
+Title: Comprehensive Analysis of Transparency and Accessibility of ...
+URL: https://arxiv.org/html/2502.18505v1
+Content: restricting access to the model architecture, code, and weights. This trend continued with GPT-4, which also remains proprietary. [...] Early models such as GPT-2 (Brown et al., 2020) and BERT (Devlin et al., 2019) laid the groundwork with moderate layer counts, hidden nodes, and attention head configurations. As the field evolved, later models—particularly within the ChatGPT and DeepSeek families (Guo et al., 2025; Zhu et al., 2024), exhibited significant increases in layers, hidden units, and overall parameter scales, reflecting a trend toward more complex architectures designed for enhanced performance and multimodal capabilities. The table categorizes the openness of training data (fully open, partially open, or proprietary) and evaluates accessibility to model weights, code, and training datasets, thereby delineating a clear divergence between models that offer full reproducibility and those that only provide open [...] Open-Weight LLMs: Open-weight LLMs make their pre-trained model weights pro (2023), the parameters learned during the pre-training process, publicly available, while the underlying code, training data, or training methodologies may remain proprietary. Open-weight models, while more accessible and easier to deploy than closed-source models, do not provide the same level of insight into the model’s inner workings as fully open-source models would. Meta’s LLama series is a prime example of an open-weight LLM. Researchers can download the pre-trained weights to fine-tune and deploy the model for various applications. However, while LLama weights are available, the full training pipeline, including the code and data, remains proprietary. This enables a balance between accessibility and
+
+Title: The Black Box Problem: Opaque Inner Workings of Large Language ...
+URL: https://promptengineering.org/the-black-box-problem-opaque-inner-workings-of-large-language-models/
+Content: Encoding curated knowledge into LLMs can reduce reliance on purely statistical patterns from training data that contribute to opacity. For example, medical LLMs could leverage knowledge graphs of ontological biomedical data as an additional transparent layer of structured reasoning about diseases, symptoms, treatments, etc.
+
+During inference, LLMs could reference knowledge graphs to retrieve relevant facts and relationships to inform and explain conclusions. This supplements the intrinsic pattern recognition of neural networks with a grounded knowledge framework. [...] Overall, XAI techniques can effectively expose model reasoning in ways familiar to humans. But challenges remain in scaling explanations across LLMs’ vast parameter spaces. Integrating XAI into model training may yield models that are inherently self-explaining by design.
+
+## The LITE Box LLM Framework
+
+One approach we've developed at the Prompt Engineering Institute for creating more interpretable LLMs is using a transparent processing framework called the Linguistic Insight Transparency Engine (LITE) Box.
+
+This breaks down the LLM into distinct reasoning components: [...] Promising approaches include glass-box neural networks, integration of knowledge graphs, and explainable AI techniques. Though difficult obstacles remain, steady progress is being made towards acceptable solutions. The path forward lies in cross-disciplinary collaboration to usher in transparent yet powerful LLMs fit for broad deployment. With rigorous research and responsible innovation, the black box can be cracked open.
+
+### “Glass-Box” Architectures
+
+One approach to mitigate the black box problem is developing more transparent "glass-box" model architectures and training processes. This involves designing LLMs to enable better visibility into their internal data representations and reasoning.
+
+Title: [PDF] PrivacyScalpel: Enhancing LLM Privacy via Interpretable Feature ...
+URL: https://aclanthology.org/2025.blackboxnlp-1.13.pdf
+Content: 2. Calculating the average accuracy across these datasets as a measure of model util-ity.
+4.2 Layer Selection for Intervention To determine the optimal layer for intervention, we probe the residual activations at each transformer layer using a classifier trained to distinguish be-tween PII and non-PII data. As shown in Table 2, Layer 9 yields the highest validation accuracy and is selected as the target for subsequent analysis. [...] By decomposing weight matrices, this approach reduces memory overhead and noise intensity, en-abling privacy-preserving training of large-scale models like BERT while achieving competitive utility scores. Similarly, Chen et al. (2024a) lo-calized privacy-sensitive neurons using learnable binary masks, showing that PII is concentrated in specific neurons, particularly in Multi-Layer Per-ceptron (MLP) layers. Deactivating these neurons reduces privacy leakage but comes with a trade-off in model utility.
+Other works have explored privacy-preserving mechanisms at different stages of the LLM pipeline. [...] We select top k features using the feature ablation method dis-cussed in Section 3.3.1. After identifying the top k features, a probe is trained on the Dprob dataset, but only using the selected features. This allows for more efficient manipulation of the model, as the steering vector is applied only to the most ac-tive features, leaving the other latent dimensions unchanged.
+
+Title: How would you demonstrate that a LLM is a transparent model?
+URL: https://www.reddit.com/r/MLQuestions/comments/1pilzoq/how_would_you_demonstrate_that_a_llm_is_a/
+Content: # How would you demonstrate that a LLM is a transparent model?
+
+Hi everyone, as the title says I need to find some ideas about how to demonstrate if a model is a "transparent" box or not. I'm making experiments with differents architecture approach and I need to build an experiment to validate or not my conclusions. If you have "created" a model what can be done to without doubt test this quality without the need of sharing the details with the public?
+
+Maybe I'm just another one been validated by AIs or maybe I have created something valuable.
+
+I'll appreciate your help, thanks.
+
+# Related Answers Section [...] Data Splitting: Divide your dataset into training, validation, and test sets, typically in a 70:15:15 or 80:10:10 ratio. "Split your dataset into training, validation, and test sets. A common split ratio is 70:15:15 or 80:10:10 (train:validation:test)."
+
+Tokenization and Special Tokens: Convert text into tokens and incorporate special tokens like \[CLS\], \[SEP\], and \[PAD\] for models like BERT. "Convert your text into tokens (words, characters, or subwords). This is model-specific; for example, BERT uses WordPiece tokenization."
+
+Normalization: Standardize text data by lowercasing, stemming, and lemmatization to reduce complexity. "This includes lowercasing, stemming, and lemmatization to standardize your text data." [...] EDA and Preprocessing: Understand that Exploratory Data Analysis (EDA) and data preprocessing are distinct but complementary. "EDA and data preprocessing is two different task as well. When exploring the data, you barely change a thing with dataset, but the preprocessing is where you want to solve the problem you have noticed in EDA or do augment the data which can be more 'feedable' with the model."
+
+Automated Preprocessing: Consider using automated tools like Atlantic for reliable, repeatable, and scalable preprocessing. "I’ve been building and more recently refactoring Atlantic, an open-source Python package that aims to make tabular raw data preprocessing reliable, repeatable, scalable and largely automated for supervised machine learning workflows."
+
+Title: How to Build Your Own LLM From Scratch and Scale It Right
+URL: https://labs.lamatic.ai/p/how-to-build-your-own-llm/
+Content: #### Understanding the Forward Propagation Process
+
+During forward propagation, training data is fed into the LLM, which learns the language patterns and semantics required to predict output accurately during inference. The output of each layer of the neural network serves as the input to another layer, until the final output layer, which generates a predicted output based on the input sequence and its learned parameters.Backward propagation updates the LLM’s parameters based on its prediction errors. The model’s gradients, i.e., the extent to which parameters should be adjusted to increase accuracy, are propagated backward through the network. [...] #### Normalization Layers
+
+This layer ensures the input embeddings fall within a reasonable range and helps mitigate vanishing or exploding gradients, stabilizing the language model and allowing for a smoother training process.   In particular, the transformer architecture utilizes layer normalization, which normalizes the output for each token at every layer, as opposed to batch normalization, which normalizes across each portion of data used during a time step.
+
+Layer normalization is ideal for transformers because it maintains the relationships between the aspects of each token and does not interfere with the self-attention mechanism.
+
+#### Residual Connections [...] #### Training Your Custom LLM
+
+The training process for LLMs requires vast amounts of textual data being passed through its neural network to initialize its parameters, i.e., weights and biases. This is composed of two steps:
+
+ Forward propagation
+ Backward propagation
+
+#### Understanding the Forward Propagation Process
