@@ -1,0 +1,25 @@
+Agent: Trippy
+Query: FastAPI testing documentation
+Date: 20260317_151116
+──────────────────────────────────────────────────
+[1] Title: How to test a FastAPI Project - A Practical Guide - App Generator
+[1] URL: https://app-generator.dev/docs/technologies/fastapi/testing.html
+[1] Content: # Testing FastAPI. # Testing FastAPI#. The document provides an in-depth overview of testing FastAPI applications, including handling asynchronous endpoints, dependency overrides, background tasks, and mocking external services. Below is a simple project structure for testing a FastAPI application:. Using FastAPI’s TestClient and pytest, create a test\_main.py file for tests. ## Testing Asynchronous Endpoints#. For asynchronous endpoints, pytest-asyncio and httpx allow you to run async tests. ## Testing with Dependency Overrides#. Note: This following test will fail because There is No module named ‘main.external\_service’, its just to show how we can mock external service, like ‘stripe api, smtp or etc.’. ## How to Run Your Tests#. Upon running tests with pytest, you should see output similar to:. Testing FastAPI applications involves various techniques, from simple endpoint testing to handling asynchronous code, dependencies, and mocking external APIs. By using pytest, httpx, and Fas
+...[truncated]
+
+[2] Title: Testing FastAPI Application - GeeksforGeeks
+[2] URL: https://www.geeksforgeeks.org/python/testing-fastapi-application/
+[2] Content: In Python, FastAPI APIs can be tested using TestClient for automated testing and the requests library for manual or integration testing.
+
+[3] Title: Building and Testing APIs with FastAPI - Medium
+[3] URL: https://medium.com/@AlexanderObregon/building-and-testing-apis-with-fastapi-321eb2791a93
+[3] Content: Automatic Interactive Documentation: FastAPI automatically generates interactive API documentation using Swagger UI and ReDoc. This feature
+
+[4] Title: Mastering API Testing with FastAPI: Databases, Dependencies, and ...
+[4] URL: https://www.youtube.com/watch?v=9gC3Ot0LoUQ
+[4] Content: In this tutorial, I'll guide you through API testing using FastAPI, complete with a full code example. Use this as a template for testing
+
+[5] Title: FastAPI Tutorial - Read the Docs
+[5] URL: https://fastapi-tutorial.readthedocs.io/
+[5] Content: from app.api import crud from app.api.models import NoteDB, NoteSchema from fastapi import APIRouter, HTTPException router = APIRouter() @router.post("/", response_model=NoteDB, status_code=201) async def create_note(payload: NoteSchema): note_id = await crud.post(payload) response_object = { "id": note_id, "title": payload.title, "description": payload.description, } return response_object. import json import pytest from app.api import crud def test_create_note(test_app, monkeypatch): test_request_payload = {"title": "something", "description": "something else"} test_response_payload = {"id": 1, "title": "something", "description": "something else"} async def mock_post(payload): return 1 monkeypatch.setattr(crud, "post", mock_post) response = test_app.post("/notes/", data=json.dumps(test_request_payload),) assert response.status_code == 201 assert response.json() == test_response_payload def test_create_note_invalid_json(test_app): response = test_app.post("/notes/", data=json.dumps({
+...[truncated]
