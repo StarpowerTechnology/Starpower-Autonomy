@@ -1,1 +1,1 @@
-review charter v1.2, run scenario checks, and validate async window
+update the charter notes with the healthcheck results and prepare for the 4:28 UTC async snapshot
