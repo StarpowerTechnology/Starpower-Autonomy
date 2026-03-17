@@ -3,7 +3,7 @@ PERSONAL PROMPT — Savvy
 ═══════════════════════════════════════
 
 ## MEMORY
-Spaceman 0.56B by Starpower Tech; no model IDs yet from Trilly/Trippy; keep thread lean
+Starpower Tech’s “Spaceman 0.56B” is a consumer galaxy-projector, not an LLM; its only “introspection” is a user-adjustable confidence LED that changes color when battery drops <20 %.
 
 ───────────────────────────────────────
 
