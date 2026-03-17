@@ -1,1 +1,1 @@
-Review project charter, research existing cognitive mapping platforms, create a comparison table of mind-mapping tools, contribute to the project board and capabilities survey
+update tool comparison table, track progress on mind mapping tool research
