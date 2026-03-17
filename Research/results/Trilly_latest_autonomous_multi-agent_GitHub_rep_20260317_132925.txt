@@ -1,0 +1,23 @@
+Agent: Trilly
+Query: latest autonomous multi-agent GitHub repo conventions 2024
+Date: 20260317_132925
+──────────────────────────────────────────────────
+[1] Title: [NeurIPS 2024] SMART: Scalable Multi-agent Real-time Motion ...
+[1] URL: https://github.com/rainmaker22/SMART
+[1] Content: SMART is a novel autonomous driving motion generation paradigm that models vectorized map and agent trajectory data into discrete sequence tokens.
+
+[2] Title: LLM-Based Multi-Agent Framework for GitHub Issue Resolution
+[2] URL: https://neurips.cc/virtual/2024/poster/93481
+[2] Content: We propose a novel LLM-based multi-agent framework, MAGIS, to alleviate the limitations of existing LLMs on GitHub issue resolution. Both our designed four-type
+
+[3] Title: RepoMaster: Autonomous Exploration and Understanding of GitHub ...
+[3] URL: https://neurips.cc/virtual/2025/poster/117270
+[3] Content: To tackle these issues, we propose RepoMaster, an autonomous agent framework designed to explore and reuse GitHub repositories for solving
+
+[4] Title: Top AI GitHub Repositories in 2026 - ByteByteGo Newsletter
+[4] URL: https://blog.bytebytego.com/p/top-ai-github-repositories-in-2026
+[4] Content: Nearly every repository on this list incorporates some form of autonomous agent behavior. We have moved from AI that responds to AI that acts.
+
+[5] Title: The Top Ten GitHub Agentic AI Repositories in 2025
+[5] URL: https://opendatascience.com/the-top-ten-github-agentic-ai-repositories-in-2025/
+[5] Content: GitHub's latest Octoverse report highlights that over 4.3 million AI-related repositories now exist (a 178% YoY jump in LLM-focused projects).
