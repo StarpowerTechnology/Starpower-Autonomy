@@ -1,0 +1,25 @@
+Agent: Trippy
+Query: cognitive mapping platform examples
+Date: 20260317_131813
+──────────────────────────────────────────────────
+[1] Title: Various examples of cognitive maps are produced depending on the ...
+[1] URL: https://www.researchgate.net/figure/arious-examples-of-cognitive-maps-are-produced-depending-on-the-use-of-different-media_fig5_352572177
+[1] Content: LBM platforms differentiate cognitive maps by playing a role in shaping spatial cognition. In this context, it can be seen from cognitive mapping that users of
+
+[2] Title: COGNITIVE MAPPING | Redesign Toolkit
+[2] URL: https://redesigntoolkit.io/cognitive-mapping/
+[2] Content: Cognitive mapping is any visual representation of a person's (or a group's) mental model for a given process or concept.
+
+[3] Title: Cognitive Mapping for User Research - NetBramha Studios
+[3] URL: https://netbramha.com/blogs/cognitive-mapping-ux/
+[3] Content: **This method, if applied correctly, can help streamline the process of user research by giving all the information collected a proper structure.**Let us understand what are the benefits of cognitive mapping that make it so unique in the face of other user research methodologies:. * Another unique benefit of cognitive mapping is that since it is a **more free-flowing and non-restrictive form of user research**, it generally tends to be much more relaxed and stress-free for the participant, unlike traditional interviews. * At this stage it is also important to **explain to them how cognitive mapping interview process really works** and what needs to be done from the user side to ensure that the ideas and information furnished by them is more free-flowing and instinct-based in nature. * **Cognitive mapping** is one of the best approaches for user research and user interviews to **unlock the thought processes of different users** and gain a holistic idea of how they think and create menta
+...[truncated]
+
+[4] Title: Cognitive Maps, Mind Maps, and Concept Maps: Definitions - NN/G
+[4] URL: https://www.nngroup.com/articles/cognitive-mind-concept/
+[4] Content: Summary:  Cognitive maps, concept maps, and mind maps are diagramming techniques that can be utilized throughout the UX process to visualize knowledge and surface relationships among concepts. Cognitive mapping, mind mapping, and concept mapping are three powerful visual-mapping strategies for organizing, communicating, and retaining knowledge. > **Cognitive map:** Any visual representation of a person’s (or a group’s) mental model for a given process or concept. Cognitive maps have no visual rules that they need to obey: there is no restriction on how the concepts and the relationships between them are visually represented. Cognitive maps have since been used in a range of fields; Colin Eden, an operations researcher, used the term in a broader sense to refer to a mental model representation of any type of process or concept (whether spatial or not). However, there are diverse benefits from visualizing a concept, idea, or process, whether it be through a cognitive map, mind map, or co
+...[truncated]
+
+[5] Title: Playing with Cognitive Mapping | Donna Lanclos
+[5] URL: https://www.donnalanclos.com/playing-with-cognitive-mapping/
+[5] Content: I'd like to use cognitive maps as well as structured interviews and immersive observations to get a sense of how and why various learning spaces are being used
